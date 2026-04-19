@@ -1,14 +1,24 @@
-[gd_scene load_steps=3 format=3 uid="uid://7hv71nunc8ig"]
+[gd_scene load_steps=4 format=3 uid="uid://7hv71nunc8ig"]
 
-[ext_resource type="Texture2D" uid="uid://dgbnpgcqc2it3" path="res://Fast Fury Assets/Vehicles/Racing Cars/racing_cars_blue.png" id="1_k30j5"]
-[ext_resource type="Texture2D" uid="uid://di3l2esvfl05b" path="res://Fast Fury Assets/HUD/Mini Map/car_dealer_icon.png" id="2_7qjo7"]
+[ext_resource type="Texture2D" uid="uid://4wglc7m075ae" path="res://Fast Fury Assets/Vehicles/Racing Cars/racing_cars_red.png" id="1_k30j5"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_7qjo7"]
+atlas = ExtResource("1_k30j5")
+region = Rect2(288, 32, 16, 32)
 
-[node name="RacingCarsBlue" type="Sprite2D" parent="."]
-position = Vector2(673, 139)
-texture = ExtResource("1_k30j5")
+[sub_resource type="SpriteFrames" id="SpriteFrames_ocwa0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7qjo7")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
 
-[node name="CarDealerIcon" type="Sprite2D" parent="."]
-position = Vector2(907, 247)
-texture = ExtResource("2_7qjo7")
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ocwa0")
+animation = &"new_animation"
