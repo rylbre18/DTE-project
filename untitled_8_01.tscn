@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://7hv71nunc8ig"]
+
+[ext_resource type="Texture2D" uid="uid://dgbnpgcqc2it3" path="res://Fast Fury Assets/Vehicles/Racing Cars/racing_cars_blue.png" id="1_k30j5"]
+[ext_resource type="Texture2D" uid="uid://di3l2esvfl05b" path="res://Fast Fury Assets/HUD/Mini Map/car_dealer_icon.png" id="2_7qjo7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RacingCarsBlue" type="Sprite2D" parent="."]
+position = Vector2(673, 139)
+texture = ExtResource("1_k30j5")
+
+[node name="CarDealerIcon" type="Sprite2D" parent="."]
+position = Vector2(907, 247)
+texture = ExtResource("2_7qjo7")
