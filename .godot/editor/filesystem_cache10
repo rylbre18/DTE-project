@@ -1,0 +1,669 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1778101797
+character_body_2d.tscn::PackedScene::5708719465678265901::1777949815::0::1::::<><><>0<>0<><>::uid://4wglc7m075ae::::res://Fast Fury Assets/Vehicles/Racing Cars/racing_cars_red.png
+::res://Fast Fury Assets/::1777948093
+Personal Licence.txt::TextFile/TextFile::-1::1777948093::0::1::::<><><>0<>0<><>::
+tileset.png::CompressedTexture2D/CompressedTexture2D::5604680755207537745::1775006580::1777947069::1::::<><><>0<>0<>e388b277e30a25e302bf452847b6fe24<>res://.godot/imported/tileset.png-0aa8886c2a11e0c036e26727125fbde0.ctex::
+::res://Fast Fury Assets/Effects/::1777947069
+car_dealer_entrance.png::CompressedTexture2D/CompressedTexture2D::4958533842367699663::1775006578::1777947069::1::::<><><>0<>0<>7d9a5f57128a8c859cc8d96b8850f885<>res://.godot/imported/car_dealer_entrance.png-8d65b6920264c6e2e12e86ba55db21dc.ctex::
+car_explosion.png::CompressedTexture2D/CompressedTexture2D::3789483133795212688::1775006578::1777947069::1::::<><><>0<>0<>c59501c4a05bdc563d01ce4f8bc865d1<>res://.godot/imported/car_explosion.png-18a4c8e9ad28028e5c28eebe54adb87b.ctex::
+car_garage_entrance.png::CompressedTexture2D/CompressedTexture2D::484475173946943120::1775006578::1777947069::1::::<><><>0<>0<>af238131a79051cf5b68d3e2c9761306<>res://.godot/imported/car_garage_entrance.png-7c74891144c3d1d11f8c29fe6a767c2e.ctex::
+car_paint_entrance.png::CompressedTexture2D/CompressedTexture2D::3909863360655795366::1775006578::1777947069::1::::<><><>0<>0<>1b3c812f8534c4c52d1fa90eb941c5eb<>res://.godot/imported/car_paint_entrance.png-44bdfe94eaea20b37856aaaba219b3a6.ctex::
+race_entrance.png::CompressedTexture2D/CompressedTexture2D::3265628944818057352::1775006578::1777947069::1::::<><><>0<>0<>6ebab4829bf5d8c8a74e2d66a54d3e1e<>res://.godot/imported/race_entrance.png-fa118af4f5b042bf59340a6d0479c5a6.ctex::
+racing_car_nitro_1.png::CompressedTexture2D/CompressedTexture2D::5030214816389009449::1775006578::1777947068::1::::<><><>0<>0<>9fa2baf033cadcd7c8569300467fe21f<>res://.godot/imported/racing_car_nitro_1.png-e4832e053a3241f19bbc581d9ae24bee.ctex::
+racing_car_nitro_2.png::CompressedTexture2D/CompressedTexture2D::7051682348215875443::1775006578::1777947068::1::::<><><>0<>0<>74012468b97845119b40ce375b68eb0d<>res://.godot/imported/racing_car_nitro_2.png-49cd57fde431054ca86256d8033d6318.ctex::
+racing_car_super_nitro_1.png::CompressedTexture2D/CompressedTexture2D::4499932973180635321::1775006578::1777947068::1::::<><><>0<>0<>ddaa9b8ef592a1af2a3a3f779ac4e97e<>res://.godot/imported/racing_car_super_nitro_1.png-dbf8d3857a655b1abdf98e74238ee6d8.ctex::
+racing_car_super_nitro_2.png::CompressedTexture2D/CompressedTexture2D::7251158119923486635::1775006578::1777947068::1::::<><><>0<>0<>5fc367145c55dcb15a6541bae8fb85b7<>res://.godot/imported/racing_car_super_nitro_2.png-ce271a96fac061c5546336375b6f5538.ctex::
+racing_car_super_nitro_3.png::CompressedTexture2D/CompressedTexture2D::5564109883135712797::1775006578::1777947068::1::::<><><>0<>0<>99977290b7a5559bc5d9844192187fd9<>res://.godot/imported/racing_car_super_nitro_3.png-6ae4a2f9ae035186a00cc598fa7bf51a.ctex::
+ricochet_effect_1.png::CompressedTexture2D/CompressedTexture2D::3705611592398007391::1775006578::1777947068::1::::<><><>0<>0<>e5abfdd2ae24a9a4329cf67230982063<>res://.godot/imported/ricochet_effect_1.png-1f0bbf7429260133625dd4778b8bc696.ctex::
+ricochet_effect_2.png::CompressedTexture2D/CompressedTexture2D::5755991633223736639::1775006578::1777947068::1::::<><><>0<>0<>2abf69778e490339a769cae55a1dbc39<>res://.godot/imported/ricochet_effect_2.png-e967e5e0afb5860692d8dbee05b9bac3.ctex::
+ricochet_effect_3.png::CompressedTexture2D/CompressedTexture2D::9163994589277187410::1775006578::1777947068::1::::<><><>0<>0<>4bfccb9d221ebb5a18144feaa93bb03a<>res://.godot/imported/ricochet_effect_3.png-4719a7790956380e16fde76576342249.ctex::
+::res://Fast Fury Assets/HUD/::1777947070
+bar_base.png::CompressedTexture2D/CompressedTexture2D::7219662121353003565::1775006578::1777947068::1::::<><><>0<>0<>76511ab2617bc87ab686c0bdcdb756fc<>res://.godot/imported/bar_base.png-256525b27527de7431dc25f063fc8510.ctex::
+car_1_image.png::CompressedTexture2D/CompressedTexture2D::398109533288300079::1775006578::1777947068::1::::<><><>0<>0<>c5c8d48e132e9efe82c0219eea8a117a<>res://.godot/imported/car_1_image.png-591a4c8098680ee501ed56111c06f79b.ctex::
+car_2_image.png::CompressedTexture2D/CompressedTexture2D::1782737993463271569::1775006578::1777947068::1::::<><><>0<>0<>ba3cad5bd52b8e5038a0f32e4d535f56<>res://.godot/imported/car_2_image.png-b295ffb86d4cd05949e6cab8bb96e2d6.ctex::
+complete_word.png::CompressedTexture2D/CompressedTexture2D::7206520813450058810::1775006578::1777947068::1::::<><><>0<>0<>b8d9f00e8957b0253523920de229d440<>res://.godot/imported/complete_word.png-cc178f47f3c9419a9c40fc46cd7e3a03.ctex::
+fonts.png::CompressedTexture2D/CompressedTexture2D::280788762737926458::1775006578::1777947068::1::::<><><>0<>0<>842cfd1f8e9450cf9200e07755d9fe65<>res://.godot/imported/fonts.png-4054f79ed6935119dc6e31a5ee3b354c.ctex::
+label_selected_car.png::CompressedTexture2D/CompressedTexture2D::1394408654188862524::1775006578::1777947068::1::::<><><>0<>0<>4ff3d9c938d337dbaee05d96f3da4a53<>res://.godot/imported/label_selected_car.png-3367a1612dfc09245db84ec3fd394c36.ctex::
+label_unselected_and_unlocked_car.png::CompressedTexture2D/CompressedTexture2D::3876201506539561932::1775006578::1777947068::1::::<><><>0<>0<>26b4eff4014ea477b76c81683f1ff8ea<>res://.godot/imported/label_unselected_and_unlocked_car.png-bfada2b57f7ee891250ee19784979d67.ctex::
+lap_word.png::CompressedTexture2D/CompressedTexture2D::8290423230356158304::1775006578::1777947070::1::::<><><>0<>0<>37daf6d206330d066be78cdbd155d20a<>res://.godot/imported/lap_word.png-9c3d27f40c4a6706a061eefeca977197.ctex::
+line_segment_bottom.png::CompressedTexture2D/CompressedTexture2D::5650869623984759175::1775006578::1777947069::1::::<><><>0<>0<>6881a7b7039ec0b9dd7977023595f60e<>res://.godot/imported/line_segment_bottom.png-306a70d18df9ccf571b862eee976e8ed.ctex::
+line_segment_top.png::CompressedTexture2D/CompressedTexture2D::6357072100074445656::1775006578::1777947069::1::::<><><>0<>0<>03cd1ee917f8533ff9f88d6abaa5646f<>res://.godot/imported/line_segment_top.png-01d3b6f7890e5ac90baac8631df0b7e3.ctex::
+messages_label.png::CompressedTexture2D/CompressedTexture2D::4738623498114458792::1775006578::1777947069::1::::<><><>0<>0<>af03d23f2ffc22a91b036130cffd8438<>res://.godot/imported/messages_label.png-07b30f359acb861f8e667332304c846b.ctex::
+mph_bar.png::CompressedTexture2D/CompressedTexture2D::8572772663880018521::1775006579::1777947069::1::::<><><>0<>0<>2a91ed97ac121e11bb271b9bb22ef414<>res://.godot/imported/mph_bar.png-60249223a3a6b081c6b0b6b0aac290b8.ctex::
+Mph_bar_base.png::CompressedTexture2D/CompressedTexture2D::4297153148365175958::1775006579::1777947069::1::::<><><>0<>0<>7e4c33fec51cc7d346609c0ff576cc0b<>res://.godot/imported/Mph_bar_base.png-b22498cf48d6d7ad9b1d6e60ef0bf65e.ctex::
+nitro_bar.png::CompressedTexture2D/CompressedTexture2D::9149358046703819491::1775006579::1777947069::1::::<><><>0<>0<>9630e6c0f202f1369fad88b5eb99c730<>res://.godot/imported/nitro_bar.png-ef03b3a864305eb4923b9d74e327974d.ctex::
+nitro_icon.png::CompressedTexture2D/CompressedTexture2D::4725761584003427960::1775006579::1777947069::1::::<><><>0<>0<>c28c6b066f87f822bda46ab78a46583f<>res://.godot/imported/nitro_icon.png-8e7acaf1ebc27f03eb769953fb596576.ctex::
+numbers.png::CompressedTexture2D/CompressedTexture2D::986102739789905799::1775006579::1777947069::1::::<><><>0<>0<>127389d62f39170e97cba45c02a3e804<>res://.godot/imported/numbers.png-653a1894d400245534c74694ee1868da.ctex::
+padlock_icon.png::CompressedTexture2D/CompressedTexture2D::7494580013010139646::1775006579::1777947069::1::::<><><>0<>0<>1308238e1bf6e8f2b068e93604d1782a<>res://.godot/imported/padlock_icon.png-b1c4712f2222f37f03c7df4efd063bc8.ctex::
+Police_star_icon_activated.png::CompressedTexture2D/CompressedTexture2D::7815668567983554956::1775006579::1777947069::1::::<><><>0<>0<>c708646fb3a838d8e7029f871b060b23<>res://.godot/imported/Police_star_icon_activated.png-24c5e93f88f2cb39227c418ae6de8abb.ctex::
+Police_star_icon_idle.png::CompressedTexture2D/CompressedTexture2D::3203812959131756914::1775006579::1777947069::1::::<><><>0<>0<>613c3a90e42d86f9e618e78a51c8dca3<>res://.godot/imported/Police_star_icon_idle.png-5e1022d100f73a81bfc8e156af1da071.ctex::
+police_star_level_unit.png::CompressedTexture2D/CompressedTexture2D::6556668538093310854::1775006579::1777947069::1::::<><><>0<>0<>f8dc2d481f04018ee13a18a40f00a4e1<>res://.godot/imported/police_star_level_unit.png-376bf2b581a6d96d609e64dc45af965a.ctex::
+position_word.png::CompressedTexture2D/CompressedTexture2D::8551015293262176996::1775006579::1777947069::1::::<><><>0<>0<>d310e755c2c827b03e60a3f7d2100692<>res://.godot/imported/position_word.png-7ebf7b2beda94316827e4e476a9708cc.ctex::
+slowtime_bar.png::CompressedTexture2D/CompressedTexture2D::2927600458635644457::1775006579::1777947069::1::::<><><>0<>0<>863bd71cfb64d542442a1a614da7e981<>res://.godot/imported/slowtime_bar.png-891ee7c81313da237530b200df889bf2.ctex::
+slowtime_icon.png::CompressedTexture2D/CompressedTexture2D::756191960103091416::1775006579::1777947069::1::::<><><>0<>0<>32e968bddb88843272aacfa34d944472<>res://.godot/imported/slowtime_icon.png-7dfd578e66c3d9e2f934f6e04ed2b62f.ctex::
+smartphone.png::CompressedTexture2D/CompressedTexture2D::2932452940542332288::1775006579::1777947069::1::::<><><>0<>0<>ad33708a5a9b7ca5c1f5829ef78fd942<>res://.godot/imported/smartphone.png-aa0ab663c60ba99b6c645a1337c427e5.ctex::
+smartphone_message_read_.png::CompressedTexture2D/CompressedTexture2D::8847245526299917535::1775006579::1777947069::1::::<><><>0<>0<>994550c9ee0a00961e8d89d878787e69<>res://.godot/imported/smartphone_message_read_.png-f537fc334491279155d10bbd09d23909.ctex::
+smartphone_message_unread_.png::CompressedTexture2D/CompressedTexture2D::8017320268567379721::1775006579::1777947069::1::::<><><>0<>0<>fb8c813775dc55a1908431762562adc2<>res://.godot/imported/smartphone_message_unread_.png-3c0642ddb3f13783d2b0eecb203ab0d3.ctex::
+startinglight.png::CompressedTexture2D/CompressedTexture2D::3285539741498948267::1775006579::1777947069::1::::<><><>0<>0<>5ff479aac2a2fc81d4121cad7fc8ceb9<>res://.godot/imported/startinglight.png-cc7efd7567336cc2582b6deef46d33ad.ctex::
+time_word.png::CompressedTexture2D/CompressedTexture2D::5869164088622770867::1775006579::1777947069::1::::<><><>0<>0<>9bc11c1b294f253d7fcca816320dfc67<>res://.godot/imported/time_word.png-70e78f234323c30668a6ef8593624a78.ctex::
+title.png::CompressedTexture2D/CompressedTexture2D::8878199598091502521::1775006579::1777947069::1::::<><><>0<>0<>d4a12ec60513f53b564d251ef0683f4b<>res://.godot/imported/title.png-a1e2d7cf7752469f75c184181b30ce3e.ctex::
+upgrade_segment.png::CompressedTexture2D/CompressedTexture2D::3716212201407972138::1775006579::1777947069::1::::<><><>0<>0<>818b78f17d4d38b453d0202ede165002<>res://.godot/imported/upgrade_segment.png-a21892ad9cf06eaffe3d754a27e96c07.ctex::
+upgrade_segment_unlocked.png::CompressedTexture2D/CompressedTexture2D::5210631914578304322::1775006579::1777947067::1::::<><><>0<>0<>203e962de0a52de0c1bcaa59284ef356<>res://.godot/imported/upgrade_segment_unlocked.png-c89b7cfd156397b23c0b2f7206ed5779.ctex::
+::res://Fast Fury Assets/HUD/Mini Map/::1777947067
+buildings_tile.png::CompressedTexture2D/CompressedTexture2D::700239825900398122::1775006578::1777947067::1::::<><><>0<>0<>16cb057911004905d566d9433c61746a<>res://.godot/imported/buildings_tile.png-9292eab3af893ccd7d000216ea9f5358.ctex::
+car_dealer_icon.png::CompressedTexture2D/CompressedTexture2D::7779291719514267177::1775006578::1777947067::1::::<><><>0<>0<>4dc0af45d235da7deb565754eec904c8<>res://.godot/imported/car_dealer_icon.png-bf2b227c14a03739c3918cd57ae077bf.ctex::
+car_dealer_indicator.png::CompressedTexture2D/CompressedTexture2D::8540660119696839859::1775006578::1777947067::1::::<><><>0<>0<>45138e1ed2ec5d05093a60783e623ebd<>res://.godot/imported/car_dealer_indicator.png-f93e9ee53e05cde0937b60bd3d8cd66a.ctex::
+finish_line.png::CompressedTexture2D/CompressedTexture2D::6070766278325128886::1775006578::1777947067::1::::<><><>0<>0<>054545cbfca17ff2bb932dd2293a225d<>res://.godot/imported/finish_line.png-276f85a309e458da3303369fd404c4c1.ctex::
+floor_tile.png::CompressedTexture2D/CompressedTexture2D::257681068811526219::1775006578::1777947067::1::::<><><>0<>0<>3e1db41c3d209bbad33e6995281abb49<>res://.godot/imported/floor_tile.png-4d7e741eb1dbedfadc7693999a21f9e4.ctex::
+garage_icon.png::CompressedTexture2D/CompressedTexture2D::2523255778861506244::1775006578::1777947067::1::::<><><>0<>0<>1fde9e0627f96cbf1602649f0796fd1d<>res://.godot/imported/garage_icon.png-2caf9df50098e0a9a6f2d25d2da80f4a.ctex::
+garage_indicator.png::CompressedTexture2D/CompressedTexture2D::2668917505307727839::1775006578::1777947066::1::::<><><>0<>0<>5e503c649dc1e2a60f3c03fe57e3938d<>res://.godot/imported/garage_indicator.png-751216f713b70f70958d4fd991734a28.ctex::
+label.png::CompressedTexture2D/CompressedTexture2D::2483283678657571282::1775006578::1777947066::1::::<><><>0<>0<>81477cdffb8cd76c290c3592deacd3e1<>res://.godot/imported/label.png-28411b4b79f2dd258e51af40017967e1.ctex::
+paint_car_icon.png::CompressedTexture2D/CompressedTexture2D::937753568854401286::1775006578::1777947066::1::::<><><>0<>0<>9e39d72ffb1af8df9199127fb8dba41e<>res://.godot/imported/paint_car_icon.png-b1eaf42ade0462668daff0d000b6b4dc.ctex::
+paint_car_indicator.png::CompressedTexture2D/CompressedTexture2D::463341833750657637::1775006578::1777947066::1::::<><><>0<>0<>49c84be6017159ac4fde9e8673a9d8d6<>res://.godot/imported/paint_car_indicator.png-03e6e483b0f5c6cc1e710811d009789d.ctex::
+player_car_onmap.png::CompressedTexture2D/CompressedTexture2D::4841796307164824276::1775006579::1777947066::1::::<><><>0<>0<>15cbdba52d191456ae815ccfcae23095<>res://.godot/imported/player_car_onmap.png-e7f30761ad8e73d030a397f31b25700f.ctex::
+police_cars_onmap.png::CompressedTexture2D/CompressedTexture2D::2655161334495042773::1775006579::1777947066::1::::<><><>0<>0<>94c8fb8252aa0d084acdbb75ceb5c099<>res://.godot/imported/police_cars_onmap.png-d84f23e5795c4a5cfa7439efc84f70bf.ctex::
+race_icon.png::CompressedTexture2D/CompressedTexture2D::1176558422820331300::1775006579::1777947066::1::::<><><>0<>0<>37d2e9bb5fb2864a8e39f180058fd562<>res://.godot/imported/race_icon.png-28ccabeb20bae5b65ed3fe1ff8eb7c42.ctex::
+race_indicator.png::CompressedTexture2D/CompressedTexture2D::8910316156005214798::1775006579::1777947066::1::::<><><>0<>0<>c2b84968051251d6369e8b2f1baae319<>res://.godot/imported/race_indicator.png-e8bf609537cb86a24f003a83451e635f.ctex::
+race_route.png::CompressedTexture2D/CompressedTexture2D::2758712380717645097::1775006579::1777947066::1::::<><><>0<>0<>2fb85b7e9511fa47f65171eb504e5cb0<>res://.godot/imported/race_route.png-2524098240323f56da2e2fcc710a0f75.ctex::
+rival_cars_onmap.png::CompressedTexture2D/CompressedTexture2D::7900316214531695877::1775006579::1777947066::1::::<><><>0<>0<>5e7f4e1bdda5444a3fb245ff6e3047b4<>res://.godot/imported/rival_cars_onmap.png-b937bb2941d084a4eca5f322765f273c.ctex::
+road_tile.png::CompressedTexture2D/CompressedTexture2D::705493714497616264::1775006579::1777947066::1::::<><><>0<>0<>b7671d0b3dec70186b192feb9c5c0746<>res://.godot/imported/road_tile.png-8762400efe7b5b769235c8dd08829b3a.ctex::
+::res://Fast Fury Assets/Obstacles/::1777947068
+oil_pool.png::CompressedTexture2D/CompressedTexture2D::5016588937955850646::1775006579::1777947066::1::::<><><>0<>0<>1aa53b144530a5fab358e761fb69af72<>res://.godot/imported/oil_pool.png-ad28c3d63da7ae24abca215280326038.ctex::
+police_barrier.png::CompressedTexture2D/CompressedTexture2D::2166791012549990501::1775006579::1777947066::1::::<><><>0<>0<>6cbb7a80ba51e46d435968b1c870287b<>res://.godot/imported/police_barrier.png-33ad27acaf9543db4a6c8e0c0f7084f0.ctex::
+police_barrier_destroied.png::CompressedTexture2D/CompressedTexture2D::161864768618606789::1775006579::1777947066::1::::<><><>0<>0<>8ddb1012a45b35e2e9adaa66dffa1e72<>res://.godot/imported/police_barrier_destroied.png-46bd11f65791034db5014be03e84e2b7.ctex::
+police_tire_puncture.png::CompressedTexture2D/CompressedTexture2D::4639031221225426796::1775006579::1777947066::1::::<><><>0<>0<>7c48b558794fc41c1b05e5bac99a879d<>res://.godot/imported/police_tire_puncture.png-30a15fefe417e3b5312f3627bd0b4c06.ctex::
+road_barrier_1.png::CompressedTexture2D/CompressedTexture2D::3972021027087316595::1775006579::1777947068::1::::<><><>0<>0<>b3680a9ac8d36ba6d0c36e60359a20e4<>res://.godot/imported/road_barrier_1.png-3f4ffac82744caaae8adb2c2533f9a93.ctex::
+road_barrier_2.png::CompressedTexture2D/CompressedTexture2D::6389733400883651947::1775006579::1777947068::1::::<><><>0<>0<>d6d07fbff8c6853521f6b1f3d50a3454<>res://.godot/imported/road_barrier_2.png-9e32b4435809728e48305048919b8e17.ctex::
+water_pool.png::CompressedTexture2D/CompressedTexture2D::6827711111084565493::1775006579::1777947068::1::::<><><>0<>0<>ff450f47ffe5e1ca83ed32ec583fd04a<>res://.godot/imported/water_pool.png-22309a80a5f3a2baf66b6ca10452cc1a.ctex::
+::res://Fast Fury Assets/Pickables/::1777947068
+money.png::CompressedTexture2D/CompressedTexture2D::4806648195404319987::1775006580::1777947068::1::::<><><>0<>0<>a7072d65e9b68e4f6a8f4f57cd49767e<>res://.godot/imported/money.png-e0ed06fdd34fecb481ee293e56c79c1a.ctex::
+nitro.png::CompressedTexture2D/CompressedTexture2D::3184422792129883804::1775006580::1777947068::1::::<><><>0<>0<>bd7350a1cc5692bcdfc65a042da16882<>res://.godot/imported/nitro.png-149bea68a18944bba2de85c79ddaa605.ctex::
+slowtime.png::CompressedTexture2D/CompressedTexture2D::7956561896754354450::1775006580::1777947068::1::::<><><>0<>0<>e8bce6e155004327eaa8bcb7fd3f55e5<>res://.godot/imported/slowtime.png-87dabcd5d42484e4458246e9d1d4ef3d.ctex::
+::res://Fast Fury Assets/PNG/::1776724861
+::res://Fast Fury Assets/PNG/CollisionFx/::1776724844
+::res://Fast Fury Assets/PNG/CollisionFx/01/::1776996531
+::res://Fast Fury Assets/PNG/CollisionFx/02/::1776996533
+::res://Fast Fury Assets/PNG/Cops/::1776996536
+::res://Fast Fury Assets/PNG/Cops/2Tires/::1776996533
+::res://Fast Fury Assets/PNG/Cops/4Tires/::1776996534
+::res://Fast Fury Assets/PNG/Cops/Bike01/::1776996535
+::res://Fast Fury Assets/PNG/Cops/Bike02/::1776996536
+::res://Fast Fury Assets/PNG/Cops/Car/::1776996536
+::res://Fast Fury Assets/PNG/Items/::1776724846
+::res://Fast Fury Assets/PNG/Items/01/::1776996537
+::res://Fast Fury Assets/PNG/Items/02/::1776996538
+::res://Fast Fury Assets/PNG/Items/03/::1776996539
+::res://Fast Fury Assets/PNG/Items/04/::1776996540
+::res://Fast Fury Assets/PNG/Items/BlankTemp/::1776996541
+::res://Fast Fury Assets/PNG/Motorcycle Body/::1776996542
+::res://Fast Fury Assets/PNG/Obstacle/::1776996543
+::res://Fast Fury Assets/PNG/Riders/::1776724857
+::res://Fast Fury Assets/PNG/Riders/01/::1776996553
+::res://Fast Fury Assets/PNG/Riders/01/Hit01/::1776724846
+::res://Fast Fury Assets/PNG/Riders/01/Hit01/Left/::1776996544
+::res://Fast Fury Assets/PNG/Riders/01/Hit01/Right/::1776996546
+::res://Fast Fury Assets/PNG/Riders/01/Hit02/::1776724847
+::res://Fast Fury Assets/PNG/Riders/01/Hit02/Left/::1776996547
+::res://Fast Fury Assets/PNG/Riders/01/Hit02/Right/::1776996549
+::res://Fast Fury Assets/PNG/Riders/01/Hit03/::1776724847
+::res://Fast Fury Assets/PNG/Riders/01/Hit03/Left/::1776996550
+::res://Fast Fury Assets/PNG/Riders/01/Hit03/Right/::1776996552
+::res://Fast Fury Assets/PNG/Riders/01/Throw01/::1776724847
+::res://Fast Fury Assets/PNG/Riders/01/Throw01/Left/::1776996555
+::res://Fast Fury Assets/PNG/Riders/01/Throw01/Right/::1776996557
+::res://Fast Fury Assets/PNG/Riders/01/Throw02/::1776724847
+::res://Fast Fury Assets/PNG/Riders/01/Throw02/Left/::1776996559
+::res://Fast Fury Assets/PNG/Riders/01/Throw02/Right/::1776996560
+::res://Fast Fury Assets/PNG/Riders/01/Throw03/::1776724848
+::res://Fast Fury Assets/PNG/Riders/01/Throw03/Left/::1776996562
+::res://Fast Fury Assets/PNG/Riders/01/Throw03/Right/::1776996564
+::res://Fast Fury Assets/PNG/Riders/02/::1776996589
+::res://Fast Fury Assets/PNG/Riders/02/Hit01/::1776724848
+::res://Fast Fury Assets/PNG/Riders/02/Hit01/Left/::1776996567
+::res://Fast Fury Assets/PNG/Riders/02/Hit01/Right/::1776996571
+::res://Fast Fury Assets/PNG/Riders/02/Hit02/::1776724848
+::res://Fast Fury Assets/PNG/Riders/02/Hit02/Left/::1776996579
+::res://Fast Fury Assets/PNG/Riders/02/Hit02/Right/::1776996583
+::res://Fast Fury Assets/PNG/Riders/02/Hit03/::1776724848
+::res://Fast Fury Assets/PNG/Riders/02/Hit03/Left/::1776996587
+::res://Fast Fury Assets/PNG/Riders/02/Hit03/Right/::1776996588
+::res://Fast Fury Assets/PNG/Riders/02/Throw01/::1776724849
+::res://Fast Fury Assets/PNG/Riders/02/Throw01/Left/::1776996591
+::res://Fast Fury Assets/PNG/Riders/02/Throw01/Right/::1776996593
+::res://Fast Fury Assets/PNG/Riders/02/Throw02/::1776724849
+::res://Fast Fury Assets/PNG/Riders/02/Throw02/Left/::1776996594
+::res://Fast Fury Assets/PNG/Riders/02/Throw02/Right/::1776996595
+::res://Fast Fury Assets/PNG/Riders/02/Throw03/::1776724849
+::res://Fast Fury Assets/PNG/Riders/02/Throw03/Left/::1776996596
+::res://Fast Fury Assets/PNG/Riders/02/Throw03/Right/::1776996597
+::res://Fast Fury Assets/PNG/Riders/03/::1776996607
+::res://Fast Fury Assets/PNG/Riders/03/Hit01/::1776724849
+::res://Fast Fury Assets/PNG/Riders/03/Hit01/Left/::1776996598
+::res://Fast Fury Assets/PNG/Riders/03/Hit01/Right/::1776996599
+::res://Fast Fury Assets/PNG/Riders/03/Hit02/::1776724850
+::res://Fast Fury Assets/PNG/Riders/03/Hit02/Left/::1776996601
+::res://Fast Fury Assets/PNG/Riders/03/Hit02/Right/::1776996602
+::res://Fast Fury Assets/PNG/Riders/03/Hit03/::1776724850
+::res://Fast Fury Assets/PNG/Riders/03/Hit03/Left/::1776996604
+::res://Fast Fury Assets/PNG/Riders/03/Hit03/Right/::1776996607
+::res://Fast Fury Assets/PNG/Riders/03/Throw01/::1776724850
+::res://Fast Fury Assets/PNG/Riders/03/Throw01/Left/::1776996610
+::res://Fast Fury Assets/PNG/Riders/03/Throw01/Right/::1776996611
+::res://Fast Fury Assets/PNG/Riders/03/Throw02/::1776724850
+::res://Fast Fury Assets/PNG/Riders/03/Throw02/Left/::1776996613
+::res://Fast Fury Assets/PNG/Riders/03/Throw02/Right/::1776996614
+::res://Fast Fury Assets/PNG/Riders/03/Throw03/::1776724851
+::res://Fast Fury Assets/PNG/Riders/03/Throw03/Left/::1776996614
+::res://Fast Fury Assets/PNG/Riders/03/Throw03/Right/::1776996615
+::res://Fast Fury Assets/PNG/Riders/04/::1776996621
+::res://Fast Fury Assets/PNG/Riders/04/Hit01/::1776724851
+::res://Fast Fury Assets/PNG/Riders/04/Hit01/Left/::1776996616
+::res://Fast Fury Assets/PNG/Riders/04/Hit01/Right/::1776996617
+::res://Fast Fury Assets/PNG/Riders/04/Hit02/::1776724851
+::res://Fast Fury Assets/PNG/Riders/04/Hit02/Left/::1776996618
+::res://Fast Fury Assets/PNG/Riders/04/Hit02/Right/::1776996618
+::res://Fast Fury Assets/PNG/Riders/04/Hit03/::1776724852
+::res://Fast Fury Assets/PNG/Riders/04/Hit03/Left/::1776996620
+::res://Fast Fury Assets/PNG/Riders/04/Hit03/Right/::1776996621
+::res://Fast Fury Assets/PNG/Riders/04/Throw01/::1776724852
+::res://Fast Fury Assets/PNG/Riders/04/Throw01/Left/::1776996622
+::res://Fast Fury Assets/PNG/Riders/04/Throw01/Right/::1776996623
+::res://Fast Fury Assets/PNG/Riders/04/Throw02/::1776724852
+::res://Fast Fury Assets/PNG/Riders/04/Throw02/Left/::1776996624
+::res://Fast Fury Assets/PNG/Riders/04/Throw02/Right/::1776996624
+::res://Fast Fury Assets/PNG/Riders/04/Throw03/::1776724852
+::res://Fast Fury Assets/PNG/Riders/04/Throw03/Left/::1776996625
+::res://Fast Fury Assets/PNG/Riders/04/Throw03/Right/::1776996626
+::res://Fast Fury Assets/PNG/Riders/05/::1776996632
+::res://Fast Fury Assets/PNG/Riders/05/Hit01/::1776724853
+::res://Fast Fury Assets/PNG/Riders/05/Hit01/Left/::1776996626
+::res://Fast Fury Assets/PNG/Riders/05/Hit01/Right/::1776996627
+::res://Fast Fury Assets/PNG/Riders/05/Hit02/::1776724853
+::res://Fast Fury Assets/PNG/Riders/05/Hit02/Left/::1776996628
+::res://Fast Fury Assets/PNG/Riders/05/Hit02/Right/::1776996629
+::res://Fast Fury Assets/PNG/Riders/05/Hit03/::1776724853
+::res://Fast Fury Assets/PNG/Riders/05/Hit03/Left/::1776996630
+::res://Fast Fury Assets/PNG/Riders/05/Hit03/Right/::1776996631
+::res://Fast Fury Assets/PNG/Riders/05/Throw01/::1776724853
+::res://Fast Fury Assets/PNG/Riders/05/Throw01/Left/::1776996633
+::res://Fast Fury Assets/PNG/Riders/05/Throw01/Right/::1776996634
+::res://Fast Fury Assets/PNG/Riders/05/Throw02/::1776724853
+::res://Fast Fury Assets/PNG/Riders/05/Throw02/Left/::1776996635
+::res://Fast Fury Assets/PNG/Riders/05/Throw02/Right/::1776996636
+::res://Fast Fury Assets/PNG/Riders/05/Throw03/::1776724854
+::res://Fast Fury Assets/PNG/Riders/05/Throw03/Left/::1776996637
+::res://Fast Fury Assets/PNG/Riders/05/Throw03/Right/::1776996637
+::res://Fast Fury Assets/PNG/Riders/06/::1776996643
+::res://Fast Fury Assets/PNG/Riders/06/Hit01/::1776724854
+::res://Fast Fury Assets/PNG/Riders/06/Hit01/Left/::1776996638
+::res://Fast Fury Assets/PNG/Riders/06/Hit01/Right/::1776996638
+::res://Fast Fury Assets/PNG/Riders/06/Hit02/::1776724854
+::res://Fast Fury Assets/PNG/Riders/06/Hit02/Left/::1776996639
+::res://Fast Fury Assets/PNG/Riders/06/Hit02/Right/::1776996640
+::res://Fast Fury Assets/PNG/Riders/06/Hit03/::1776724854
+::res://Fast Fury Assets/PNG/Riders/06/Hit03/Left/::1776996642
+::res://Fast Fury Assets/PNG/Riders/06/Hit03/Right/::1776996643
+::res://Fast Fury Assets/PNG/Riders/06/Throw01/::1776724855
+::res://Fast Fury Assets/PNG/Riders/06/Throw01/Left/::1776996644
+::res://Fast Fury Assets/PNG/Riders/06/Throw01/Right/::1776996645
+::res://Fast Fury Assets/PNG/Riders/06/Throw02/::1776724855
+::res://Fast Fury Assets/PNG/Riders/06/Throw02/Left/::1776996645
+::res://Fast Fury Assets/PNG/Riders/06/Throw02/Right/::1776996646
+::res://Fast Fury Assets/PNG/Riders/06/Throw03/::1776724855
+::res://Fast Fury Assets/PNG/Riders/06/Throw03/Left/::1776996647
+::res://Fast Fury Assets/PNG/Riders/06/Throw03/Right/::1776996648
+::res://Fast Fury Assets/PNG/Riders/07/::1776996652
+::res://Fast Fury Assets/PNG/Riders/07/Hit01/::1776724855
+::res://Fast Fury Assets/PNG/Riders/07/Hit01/Left/::1776996649
+::res://Fast Fury Assets/PNG/Riders/07/Hit01/Right/::1776996649
+::res://Fast Fury Assets/PNG/Riders/07/Hit02/::1776724856
+::res://Fast Fury Assets/PNG/Riders/07/Hit02/Left/::1776996650
+::res://Fast Fury Assets/PNG/Riders/07/Hit02/Right/::1776996651
+::res://Fast Fury Assets/PNG/Riders/07/Hit03/::1776724856
+::res://Fast Fury Assets/PNG/Riders/07/Hit03/Left/::1776996651
+::res://Fast Fury Assets/PNG/Riders/07/Hit03/Right/::1776996652
+::res://Fast Fury Assets/PNG/Riders/07/Throw01/::1776724856
+::res://Fast Fury Assets/PNG/Riders/07/Throw01/Left/::1776996654
+::res://Fast Fury Assets/PNG/Riders/07/Throw01/Right/::1776996655
+::res://Fast Fury Assets/PNG/Riders/07/Throw02/::1776724856
+::res://Fast Fury Assets/PNG/Riders/07/Throw02/Left/::1776996656
+::res://Fast Fury Assets/PNG/Riders/07/Throw02/Right/::1776996657
+::res://Fast Fury Assets/PNG/Riders/07/Throw03/::1776724856
+::res://Fast Fury Assets/PNG/Riders/07/Throw03/Left/::1776996658
+::res://Fast Fury Assets/PNG/Riders/07/Throw03/Right/::1776996660
+::res://Fast Fury Assets/PNG/Riders/08/::1776996664
+::res://Fast Fury Assets/PNG/Riders/08/Hit01/::1776724857
+::res://Fast Fury Assets/PNG/Riders/08/Hit01/Left/::1776996660
+::res://Fast Fury Assets/PNG/Riders/08/Hit01/Right/::1776996661
+::res://Fast Fury Assets/PNG/Riders/08/Hit02/::1776724857
+::res://Fast Fury Assets/PNG/Riders/08/Hit02/Left/::1776996662
+::res://Fast Fury Assets/PNG/Riders/08/Hit02/Right/::1776996662
+::res://Fast Fury Assets/PNG/Riders/08/Hit03/::1776724857
+::res://Fast Fury Assets/PNG/Riders/08/Hit03/Left/::1776996663
+::res://Fast Fury Assets/PNG/Riders/08/Hit03/Right/::1776996664
+::res://Fast Fury Assets/PNG/Riders/08/Throw01/::1776724857
+::res://Fast Fury Assets/PNG/Riders/08/Throw01/Left/::1776996665
+::res://Fast Fury Assets/PNG/Riders/08/Throw01/Right/::1776996666
+::res://Fast Fury Assets/PNG/Riders/08/Throw02/::1776724858
+::res://Fast Fury Assets/PNG/Riders/08/Throw02/Left/::1776996668
+::res://Fast Fury Assets/PNG/Riders/08/Throw02/Right/::1776996670
+::res://Fast Fury Assets/PNG/Riders/08/Throw03/::1776724858
+::res://Fast Fury Assets/PNG/Riders/08/Throw03/Left/::1776996671
+::res://Fast Fury Assets/PNG/Riders/08/Throw03/Right/::1776996673
+::res://Fast Fury Assets/PNG/RoadTile/::1776997495
+::res://Fast Fury Assets/PNG/RoadTile/01/::1776997494
+::res://Fast Fury Assets/PNG/RoadTile/02/::1776997494
+::res://Fast Fury Assets/PNG/RoadTile/03/::1776997495
+::res://Fast Fury Assets/PNG/RoadTile/04/::1776997495
+::res://Fast Fury Assets/PNG/Tires/::1776724859
+::res://Fast Fury Assets/PNG/Tires/01/::1776997496
+::res://Fast Fury Assets/PNG/Tires/02/::1776997497
+::res://Fast Fury Assets/PNG/Tires/03/::1776997497
+::res://Fast Fury Assets/PNG/Tires/04/::1776997497
+::res://Fast Fury Assets/PNG/Tires/05/::1776996687
+::res://Fast Fury Assets/PNG/Tires/06/::1776996689
+::res://Fast Fury Assets/PNG/Tires/07/::1776996693
+::res://Fast Fury Assets/PNG/Tires/08/::1776996696
+::res://Fast Fury Assets/PNG/UserInterface/::1776996728
+::res://Fast Fury Assets/PNG/Weapons/::1776996730
+::res://Fast Fury Assets/Vehicles/::1777947068
+normal_vehiches.png::CompressedTexture2D/CompressedTexture2D::2414413052002735018::1775006580::1777947068::1::::<><><>0<>0<>83e00797a22367e96edda1f1b1fc8da0<>res://.godot/imported/normal_vehiches.png-d4fe8b53da56b41a05060604198d6ddb.ctex::
+police_cars.png::CompressedTexture2D/CompressedTexture2D::2239356672190021734::1775006580::1777947068::1::::<><><>0<>0<>b8102ccc5f633f8941717493691f272c<>res://.godot/imported/police_cars.png-67e6c0c16b82ce26ede41dfb3227564b.ctex::
+::res://Fast Fury Assets/Vehicles/PNG/::1776724670
+::res://Fast Fury Assets/Vehicles/PNG/CollisionFx/::1776724642
+::res://Fast Fury Assets/Vehicles/PNG/CollisionFx/01/::1776996740
+::res://Fast Fury Assets/Vehicles/PNG/CollisionFx/02/::1776996745
+::res://Fast Fury Assets/Vehicles/PNG/Cops/::1776996752
+::res://Fast Fury Assets/Vehicles/PNG/Cops/2Tires/::1776996748
+::res://Fast Fury Assets/Vehicles/PNG/Cops/4Tires/::1776996749
+::res://Fast Fury Assets/Vehicles/PNG/Cops/Bike01/::1776996750
+::res://Fast Fury Assets/Vehicles/PNG/Cops/Bike02/::1776996751
+::res://Fast Fury Assets/Vehicles/PNG/Cops/Car/::1776996752
+::res://Fast Fury Assets/Vehicles/PNG/Items/::1776724644
+::res://Fast Fury Assets/Vehicles/PNG/Items/01/::1776996753
+::res://Fast Fury Assets/Vehicles/PNG/Items/02/::1776996754
+::res://Fast Fury Assets/Vehicles/PNG/Items/03/::1776996756
+::res://Fast Fury Assets/Vehicles/PNG/Items/04/::1776996757
+::res://Fast Fury Assets/Vehicles/PNG/Items/BlankTemp/::1776996758
+::res://Fast Fury Assets/Vehicles/PNG/Motorcycle Body/::1776996760
+::res://Fast Fury Assets/Vehicles/PNG/Obstacle/::1776996762
+::res://Fast Fury Assets/Vehicles/PNG/Riders/::1776724662
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/::1776996772
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit01/::1776724645
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit01/Left/::1776996763
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit01/Right/::1776996765
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit02/::1776724645
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit02/Left/::1776996766
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit02/Right/::1776996768
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit03/::1776724646
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit03/Left/::1776996769
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Hit03/Right/::1776996771
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw01/::1776724646
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw01/Left/::1776996773
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw01/Right/::1776996775
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw02/::1776724646
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw02/Left/::1776996778
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw02/Right/::1776996820
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw03/::1776724647
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw03/Left/::1776996820
+::res://Fast Fury Assets/Vehicles/PNG/Riders/01/Throw03/Right/::1776996822
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/::1776996831
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit01/::1776724647
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit01/Left/::1776996823
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit01/Right/::1776996825
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit02/::1776724648
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit02/Left/::1776996827
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit02/Right/::1776996828
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit03/::1776724648
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit03/Left/::1776996830
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Hit03/Right/::1776996831
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw01/::1776724648
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw01/Left/::1776996832
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw01/Right/::1776996834
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw02/::1776724649
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw02/Left/::1776996835
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw02/Right/::1776996837
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw03/::1776724649
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw03/Left/::1776996840
+::res://Fast Fury Assets/Vehicles/PNG/Riders/02/Throw03/Right/::1776996843
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/::1776996855
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit01/::1776724650
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit01/Left/::1776996846
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit01/Right/::1776996849
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit02/::1776724650
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit02/Left/::1776996851
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit02/Right/::1776996852
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit03/::1776724651
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit03/Left/::1776996854
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Hit03/Right/::1776996855
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw01/::1776724651
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw01/Left/::1776996857
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw01/Right/::1776996858
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw02/::1776724652
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw02/Left/::1776996860
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw02/Right/::1776996861
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw03/::1776724652
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw03/Left/::1776996862
+::res://Fast Fury Assets/Vehicles/PNG/Riders/03/Throw03/Right/::1776996863
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/::1776996872
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit01/::1776724652
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit01/Left/::1776996865
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit01/Right/::1776996866
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit02/::1776724653
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit02/Left/::1776996867
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit02/Right/::1776996868
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit03/::1776724653
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit03/Left/::1776996870
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Hit03/Right/::1776996871
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw01/::1776724654
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw01/Left/::1776996873
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw01/Right/::1776996874
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw02/::1776724654
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw02/Left/::1776996876
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw02/Right/::1776996877
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw03/::1776724655
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw03/Left/::1776996878
+::res://Fast Fury Assets/Vehicles/PNG/Riders/04/Throw03/Right/::1776996880
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/::1776996887
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit01/::1776724655
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit01/Left/::1776996881
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit01/Right/::1776996882
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit02/::1776724655
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit02/Left/::1776997498
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit02/Right/::1776997499
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit03/::1776724656
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit03/Left/::1776997499
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Hit03/Right/::1776997501
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw01/::1776724656
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw01/Left/::1776997502
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw01/Right/::1776997502
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw02/::1776724657
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw02/Left/::1776997503
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw02/Right/::1776997503
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw03/::1776724657
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw03/Left/::1776997504
+::res://Fast Fury Assets/Vehicles/PNG/Riders/05/Throw03/Right/::1776997505
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/::1776996911
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit01/::1776724657
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit01/Left/::1776997505
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit01/Right/::1776997506
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit02/::1776724658
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit02/Left/::1776997507
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit02/Right/::1776997507
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit03/::1776724658
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit03/Left/::1776997508
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Hit03/Right/::1776997508
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw01/::1776724658
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw01/Left/::1776996914
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw01/Right/::1776996917
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw02/::1776724659
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw02/Left/::1776996919
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw02/Right/::1776996921
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw03/::1776724659
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw03/Left/::1776996922
+::res://Fast Fury Assets/Vehicles/PNG/Riders/06/Throw03/Right/::1776996924
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/::1776996942
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit01/::1776724660
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit01/Left/::1776996925
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit01/Right/::1776996927
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit02/::1776724660
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit02/Left/::1776996929
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit02/Right/::1776996932
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit03/::1776724660
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit03/Left/::1776996939
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Hit03/Right/::1776996942
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw01/::1776724661
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw01/Left/::1776996944
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw01/Right/::1776996945
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw02/::1776724661
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw02/Left/::1776996947
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw02/Right/::1776996949
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw03/::1776724661
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw03/Left/::1776996951
+::res://Fast Fury Assets/Vehicles/PNG/Riders/07/Throw03/Right/::1776996952
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/::1776996961
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit01/::1776724662
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit01/Left/::1776997509
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit01/Right/::1776997509
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit02/::1776724662
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit02/Left/::1776997510
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit02/Right/::1776997510
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit03/::1776724663
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit03/Left/::1776997511
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Hit03/Right/::1776996961
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw01/::1776724663
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw01/Left/::1776996963
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw01/Right/::1776996964
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw02/::1776724663
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw02/Left/::1776996966
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw02/Right/::1776996967
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw03/::1776724664
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw03/Left/::1776996969
+::res://Fast Fury Assets/Vehicles/PNG/Riders/08/Throw03/Right/::1776996970
+::res://Fast Fury Assets/Vehicles/PNG/RoadTile/::1776996974
+::res://Fast Fury Assets/Vehicles/PNG/RoadTile/01/::1776996971
+::res://Fast Fury Assets/Vehicles/PNG/RoadTile/02/::1776996972
+::res://Fast Fury Assets/Vehicles/PNG/RoadTile/03/::1776996973
+::res://Fast Fury Assets/Vehicles/PNG/RoadTile/04/::1776996974
+::res://Fast Fury Assets/Vehicles/PNG/Tires/::1776724666
+::res://Fast Fury Assets/Vehicles/PNG/Tires/01/::1776996976
+::res://Fast Fury Assets/Vehicles/PNG/Tires/02/::1776996977
+::res://Fast Fury Assets/Vehicles/PNG/Tires/03/::1776996979
+::res://Fast Fury Assets/Vehicles/PNG/Tires/04/::1776996980
+::res://Fast Fury Assets/Vehicles/PNG/Tires/05/::1776996981
+::res://Fast Fury Assets/Vehicles/PNG/Tires/06/::1776996982
+::res://Fast Fury Assets/Vehicles/PNG/Tires/07/::1776996984
+::res://Fast Fury Assets/Vehicles/PNG/Tires/08/::1776996985
+::res://Fast Fury Assets/Vehicles/PNG/UserInterface/::1776997015
+::res://Fast Fury Assets/Vehicles/PNG/Weapons/::1776997017
+::res://Fast Fury Assets/Vehicles/Racing Cars/::1777947068
+racing_cars_blue.png::CompressedTexture2D/CompressedTexture2D::7583275917436515002::1775006580::1777947068::1::::<><><>0<>0<>1b99f28b7bd55dee61a5bced9ab8cacc<>res://.godot/imported/racing_cars_blue.png-189fece9166532d80fd2d8edd0aef404.ctex::
+racing_cars_blue_dark.png::CompressedTexture2D/CompressedTexture2D::6730790286357603101::1775006580::1777947068::1::::<><><>0<>0<>be2d34793b71ec601482ff069cc2606e<>res://.godot/imported/racing_cars_blue_dark.png-7ee95d528826e08b829e5ac6afc2a15f.ctex::
+racing_cars_blue_light.png::CompressedTexture2D/CompressedTexture2D::4503539551072310700::1775006580::1777947068::1::::<><><>0<>0<>806326119beebcfc71952cb8267420a0<>res://.godot/imported/racing_cars_blue_light.png-c9d98249edf5a2a076431489d05ce1fe.ctex::
+racing_cars_blue_sky.png::CompressedTexture2D/CompressedTexture2D::3789972668670776256::1775006580::1777947067::1::::<><><>0<>0<>2e0cb9665baca31d3234c9bf44358737<>res://.godot/imported/racing_cars_blue_sky.png-cf867530326edc1347612409f1aea4db.ctex::
+racing_cars_green.png::CompressedTexture2D/CompressedTexture2D::1964278014403451636::1775006580::1777947067::1::::<><><>0<>0<>3356ec05442c87058e91c7c0f0fb65c2<>res://.godot/imported/racing_cars_green.png-2d4191105f6c60f4afdea5c4907062a5.ctex::
+racing_cars_green_grass.png::CompressedTexture2D/CompressedTexture2D::8275440990915222706::1775006581::1777947068::1::::<><><>0<>0<>ef8c3c421c4415e193649a13ef0297b5<>res://.godot/imported/racing_cars_green_grass.png-6bc6a72845ed22f871eb78378a5792b8.ctex::
+racing_cars_green_lime.png::CompressedTexture2D/CompressedTexture2D::5416561068815356728::1775006581::1777947067::1::::<><><>0<>0<>abc73a12058a1fb9b2d9e874bf5a5761<>res://.godot/imported/racing_cars_green_lime.png-1f512cd8bb4bb60c8c79968831335400.ctex::
+racing_cars_neon_pink.png::CompressedTexture2D/CompressedTexture2D::1177457660091564878::1775006581::1777947067::1::::<><><>0<>0<>2af343e06d0e31da4292ee86c8f5f6bf<>res://.godot/imported/racing_cars_neon_pink.png-2028847c420c3f29a272ad1a54c4bdc4.ctex::
+racing_cars_orange.png::CompressedTexture2D/CompressedTexture2D::6438244264358505510::1775006581::1777947067::1::::<><><>0<>0<>f50b5ae8aa5b6e36ee495d75e1a3edc7<>res://.godot/imported/racing_cars_orange.png-d0626f2bb58e404ad1ff68f488d3d06b.ctex::
+racing_cars_purple.png::CompressedTexture2D/CompressedTexture2D::3896006640062597246::1775006581::1777947067::1::::<><><>0<>0<>ae7d10cefdd445d6595609ab301ac807<>res://.godot/imported/racing_cars_purple.png-50c6fa647667af3559075d5674b7f74f.ctex::
+racing_cars_purple_dark.png::CompressedTexture2D/CompressedTexture2D::3897964549637827357::1775006581::1777947067::1::::<><><>0<>0<>0b2ba7ac2ce75a1f168dcbf221e6e60d<>res://.godot/imported/racing_cars_purple_dark.png-8e126e31f5c7417bdb2bb4e48a5ce745.ctex::
+racing_cars_red.png::CompressedTexture2D/CompressedTexture2D::2081276876842174348::1775006581::1777947067::1::::<><><>0<>0<>5400c27d12fafe5699fb7810479999d7<>res://.godot/imported/racing_cars_red.png-6fb5ebc0cac87f0f67e6414a108641dc.ctex::
+racing_cars_white.png::CompressedTexture2D/CompressedTexture2D::947592547906628212::1775006581::1777947067::1::::<><><>0<>0<>891520a0b9279b974cdce8e539d6d851<>res://.godot/imported/racing_cars_white.png-a7a7923a729e9c22d312c494e5932abf.ctex::
+racing_cars_yellow.png::CompressedTexture2D/CompressedTexture2D::7237334793618574319::1775006581::1777947067::1::::<><><>0<>0<>bd272e82eb39b919840d07d00f063e6b<>res://.godot/imported/racing_cars_yellow.png-9fcafb68076a23443b65df83c44ec9ed.ctex::
+racing_cars_yellow_caramel.png::CompressedTexture2D/CompressedTexture2D::4909954596213751446::1775006581::1777947067::1::::<><><>0<>0<>7b48d1f3ae37ab32a25cb2da0ba210df<>res://.godot/imported/racing_cars_yellow_caramel.png-f1cf45d164d5ec0ccf47038b683efb74.ctex::
+::res://PNG/::1776724836
+::res://PNG/CollisionFx/::1776724813
+::res://PNG/CollisionFx/01/::1776997028
+::res://PNG/CollisionFx/02/::1776997512
+::res://PNG/Cops/::1776997038
+::res://PNG/Cops/2Tires/::1776997513
+::res://PNG/Cops/4Tires/::1776997513
+::res://PNG/Cops/Bike01/::1776997514
+::res://PNG/Cops/Bike02/::1776997515
+::res://PNG/Cops/Car/::1776997038
+::res://PNG/Items/::1776724815
+::res://PNG/Items/01/::1776997039
+::res://PNG/Items/02/::1776997041
+::res://PNG/Items/03/::1776997042
+::res://PNG/Items/04/::1776997043
+::res://PNG/Items/BlankTemp/::1776997046
+::res://PNG/Motorcycle Body/::1776997048
+::res://PNG/Obstacle/::1776997051
+::res://PNG/Riders/::1776724829
+::res://PNG/Riders/01/::1776997060
+::res://PNG/Riders/01/Hit01/::1776724815
+::res://PNG/Riders/01/Hit01/Left/::1776997053
+::res://PNG/Riders/01/Hit01/Right/::1776997054
+::res://PNG/Riders/01/Hit02/::1776724816
+::res://PNG/Riders/01/Hit02/Left/::1776997056
+::res://PNG/Riders/01/Hit02/Right/::1776997057
+::res://PNG/Riders/01/Hit03/::1776724816
+::res://PNG/Riders/01/Hit03/Left/::1776997058
+::res://PNG/Riders/01/Hit03/Right/::1776997060
+::res://PNG/Riders/01/Throw01/::1776724817
+::res://PNG/Riders/01/Throw01/Left/::1776997061
+::res://PNG/Riders/01/Throw01/Right/::1776997062
+::res://PNG/Riders/01/Throw02/::1776724817
+::res://PNG/Riders/01/Throw02/Left/::1776997515
+::res://PNG/Riders/01/Throw02/Right/::1776997516
+::res://PNG/Riders/01/Throw03/::1776724817
+::res://PNG/Riders/01/Throw03/Left/::1776997516
+::res://PNG/Riders/01/Throw03/Right/::1776997517
+::res://PNG/Riders/02/::1776997075
+::res://PNG/Riders/02/Hit01/::1776724817
+::res://PNG/Riders/02/Hit01/Left/::1776997517
+::res://PNG/Riders/02/Hit01/Right/::1776997518
+::res://PNG/Riders/02/Hit02/::1776724818
+::res://PNG/Riders/02/Hit02/Left/::1776997518
+::res://PNG/Riders/02/Hit02/Right/::1776997519
+::res://PNG/Riders/02/Hit03/::1776724818
+::res://PNG/Riders/02/Hit03/Left/::1776997520
+::res://PNG/Riders/02/Hit03/Right/::1776997520
+::res://PNG/Riders/02/Throw01/::1776724818
+::res://PNG/Riders/02/Throw01/Left/::1776997521
+::res://PNG/Riders/02/Throw01/Right/::1776997521
+::res://PNG/Riders/02/Throw02/::1776724819
+::res://PNG/Riders/02/Throw02/Left/::1776997522
+::res://PNG/Riders/02/Throw02/Right/::1776997522
+::res://PNG/Riders/02/Throw03/::1776724819
+::res://PNG/Riders/02/Throw03/Left/::1776997523
+::res://PNG/Riders/02/Throw03/Right/::1776997088
+::res://PNG/Riders/03/::1776997523
+::res://PNG/Riders/03/Hit01/::1776724819
+::res://PNG/Riders/03/Hit01/Left/::1776997089
+::res://PNG/Riders/03/Hit01/Right/::1776997091
+::res://PNG/Riders/03/Hit02/::1776724820
+::res://PNG/Riders/03/Hit02/Left/::1776997092
+::res://PNG/Riders/03/Hit02/Right/::1776997095
+::res://PNG/Riders/03/Hit03/::1776724820
+::res://PNG/Riders/03/Hit03/Left/::1776997097
+::res://PNG/Riders/03/Hit03/Right/::1776997523
+::res://PNG/Riders/03/Throw01/::1776724821
+::res://PNG/Riders/03/Throw01/Left/::1776997524
+::res://PNG/Riders/03/Throw01/Right/::1776997525
+::res://PNG/Riders/03/Throw02/::1776724821
+::res://PNG/Riders/03/Throw02/Left/::1776997525
+::res://PNG/Riders/03/Throw02/Right/::1776997526
+::res://PNG/Riders/03/Throw03/::1776724822
+::res://PNG/Riders/03/Throw03/Left/::1776997526
+::res://PNG/Riders/03/Throw03/Right/::1776997527
+::res://PNG/Riders/04/::1776997119
+::res://PNG/Riders/04/Hit01/::1776724822
+::res://PNG/Riders/04/Hit01/Left/::1776997527
+::res://PNG/Riders/04/Hit01/Right/::1776997528
+::res://PNG/Riders/04/Hit02/::1776724822
+::res://PNG/Riders/04/Hit02/Left/::1776997528
+::res://PNG/Riders/04/Hit02/Right/::1776997529
+::res://PNG/Riders/04/Hit03/::1776724823
+::res://PNG/Riders/04/Hit03/Left/::1776997529
+::res://PNG/Riders/04/Hit03/Right/::1776997530
+::res://PNG/Riders/04/Throw01/::1776724823
+::res://PNG/Riders/04/Throw01/Left/::1776997121
+::res://PNG/Riders/04/Throw01/Right/::1776997125
+::res://PNG/Riders/04/Throw02/::1776724823
+::res://PNG/Riders/04/Throw02/Left/::1776997127
+::res://PNG/Riders/04/Throw02/Right/::1776997128
+::res://PNG/Riders/04/Throw03/::1776724824
+::res://PNG/Riders/04/Throw03/Left/::1776997130
+::res://PNG/Riders/04/Throw03/Right/::1776997132
+::res://PNG/Riders/05/::1776997140
+::res://PNG/Riders/05/Hit01/::1776724824
+::res://PNG/Riders/05/Hit01/Left/::1776997133
+::res://PNG/Riders/05/Hit01/Right/::1776997134
+::res://PNG/Riders/05/Hit02/::1776724824
+::res://PNG/Riders/05/Hit02/Left/::1776997135
+::res://PNG/Riders/05/Hit02/Right/::1776997137
+::res://PNG/Riders/05/Hit03/::1776724825
+::res://PNG/Riders/05/Hit03/Left/::1776997138
+::res://PNG/Riders/05/Hit03/Right/::1776997140
+::res://PNG/Riders/05/Throw01/::1776724825
+::res://PNG/Riders/05/Throw01/Left/::1776997142
+::res://PNG/Riders/05/Throw01/Right/::1776997143
+::res://PNG/Riders/05/Throw02/::1776724825
+::res://PNG/Riders/05/Throw02/Left/::1776997145
+::res://PNG/Riders/05/Throw02/Right/::1776997146
+::res://PNG/Riders/05/Throw03/::1776724826
+::res://PNG/Riders/05/Throw03/Left/::1776997147
+::res://PNG/Riders/05/Throw03/Right/::1776997149
+::res://PNG/Riders/06/::1776997156
+::res://PNG/Riders/06/Hit01/::1776724826
+::res://PNG/Riders/06/Hit01/Left/::1776997150
+::res://PNG/Riders/06/Hit01/Right/::1776997151
+::res://PNG/Riders/06/Hit02/::1776724826
+::res://PNG/Riders/06/Hit02/Left/::1776997152
+::res://PNG/Riders/06/Hit02/Right/::1776997153
+::res://PNG/Riders/06/Hit03/::1776724827
+::res://PNG/Riders/06/Hit03/Left/::1776997155
+::res://PNG/Riders/06/Hit03/Right/::1776997156
+::res://PNG/Riders/06/Throw01/::1776724827
+::res://PNG/Riders/06/Throw01/Left/::1776997157
+::res://PNG/Riders/06/Throw01/Right/::1776997159
+::res://PNG/Riders/06/Throw02/::1776724827
+::res://PNG/Riders/06/Throw02/Left/::1776997160
+::res://PNG/Riders/06/Throw02/Right/::1776997161
+::res://PNG/Riders/06/Throw03/::1776724828
+::res://PNG/Riders/06/Throw03/Left/::1776997162
+::res://PNG/Riders/06/Throw03/Right/::1776997164
+::res://PNG/Riders/07/::1776997171
+::res://PNG/Riders/07/Hit01/::1776724828
+::res://PNG/Riders/07/Hit01/Left/::1776997165
+::res://PNG/Riders/07/Hit01/Right/::1776997166
+::res://PNG/Riders/07/Hit02/::1776724828
+::res://PNG/Riders/07/Hit02/Left/::1776997167
+::res://PNG/Riders/07/Hit02/Right/::1776997168
+::res://PNG/Riders/07/Hit03/::1776724828
+::res://PNG/Riders/07/Hit03/Left/::1776997170
+::res://PNG/Riders/07/Hit03/Right/::1776997171
+::res://PNG/Riders/07/Throw01/::1776724829
+::res://PNG/Riders/07/Throw01/Left/::1776997172
+::res://PNG/Riders/07/Throw01/Right/::1776997174
+::res://PNG/Riders/07/Throw02/::1776724829
+::res://PNG/Riders/07/Throw02/Left/::1776997175
+::res://PNG/Riders/07/Throw02/Right/::1776997176
+::res://PNG/Riders/07/Throw03/::1776724829
+::res://PNG/Riders/07/Throw03/Left/::1776997177
+::res://PNG/Riders/07/Throw03/Right/::1776997178
+::res://PNG/Riders/08/::1776997186
+::res://PNG/Riders/08/Hit01/::1776724830
+::res://PNG/Riders/08/Hit01/Left/::1776997180
+::res://PNG/Riders/08/Hit01/Right/::1776997181
+::res://PNG/Riders/08/Hit02/::1776724830
+::res://PNG/Riders/08/Hit02/Left/::1776997182
+::res://PNG/Riders/08/Hit02/Right/::1776997184
+::res://PNG/Riders/08/Hit03/::1776724830
+::res://PNG/Riders/08/Hit03/Left/::1776997185
+::res://PNG/Riders/08/Hit03/Right/::1776997186
+::res://PNG/Riders/08/Throw01/::1776724830
+::res://PNG/Riders/08/Throw01/Left/::1776997188
+::res://PNG/Riders/08/Throw01/Right/::1776997189
+::res://PNG/Riders/08/Throw02/::1776724831
+::res://PNG/Riders/08/Throw02/Left/::1776997190
+::res://PNG/Riders/08/Throw02/Right/::1776997191
+::res://PNG/Riders/08/Throw03/::1776724831
+::res://PNG/Riders/08/Throw03/Left/::1776997192
+::res://PNG/Riders/08/Throw03/Right/::1776997193
+::res://PNG/RoadTile/::1776997196
+::res://PNG/RoadTile/01/::1776997194
+::res://PNG/RoadTile/02/::1776997194
+::res://PNG/RoadTile/03/::1776997195
+::res://PNG/RoadTile/04/::1776997195
+::res://PNG/Tires/::1776724832
+::res://PNG/Tires/01/::1776997197
+::res://PNG/Tires/02/::1776997198
+::res://PNG/Tires/03/::1776997199
+::res://PNG/Tires/04/::1776997204
+::res://PNG/Tires/05/::1776997206
+::res://PNG/Tires/06/::1776997210
+::res://PNG/Tires/07/::1776997211
+::res://PNG/Tires/08/::1776997213
+::res://PNG/UserInterface/::1776997241
+::res://PNG/Weapons/::1776997243
+::res://PSD/::1776997248
+::res://PSD/CollisionFx/::1776997244
+::res://PSD/Cops/::1776997244
+::res://PSD/Items/::1776997245
+::res://PSD/RoadTileSet/::1776997246
+::res://PSD/Tires/::1776997248
+::res://PSD/UserInterface/::1776997248
