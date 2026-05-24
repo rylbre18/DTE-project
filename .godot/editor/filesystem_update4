@@ -1,1 +1,6 @@
-res://character_body_2d.tscn
+res://untitled_8_01.tscn
+res://collision_shape_2d.gd
+res://sprite_2d.gd
+res://script/player.gd
+res://game.tscn
+res://player.tscn
