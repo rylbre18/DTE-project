@@ -13,6 +13,9 @@ script = ExtResource("1_onrkg")
 shape = SubResource("CapsuleShape2D_fk3xq")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=103828840]
-position = Vector2(-1059, 233)
-scale = Vector2(1.2840903, 1.2575)
+position = Vector2(373, 586.99994)
+scale = Vector2(1.5056813, 1.2575)
 texture = ExtResource("2_i3pqv")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1236126822]
+position = Vector2(392, 427)

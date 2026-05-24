@@ -5,7 +5,7 @@ const FRICTION = 500
 const MAX_SPEED = 120
 
 enum {IDLE, RUN} 
-var state =IDLE
+var state = IDLE
 
 var blend_position : Vector2 = Vector2.ZERO
 
