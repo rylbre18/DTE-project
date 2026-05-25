@@ -1,6 +1,4 @@
-res://untitled_8_01.tscn
-res://collision_shape_2d.gd
-res://sprite_2d.gd
-res://script/player.gd
 res://game.tscn
 res://player.tscn
+res://tile_map.tscn
+res://movingroad.gd
