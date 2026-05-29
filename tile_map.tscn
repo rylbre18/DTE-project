@@ -7,8 +7,10 @@ load_path = "res://.godot/imported/road_asphalt01.png-2a6dd331812525f8790451e75c
 
 [node name="moving road" type="TextureRect"]
 texture_repeat = 2
-offset_right = 128.0
-offset_bottom = 128.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 129.0
+offset_bottom = 129.0
 size_flags_horizontal = 4
 texture = SubResource("CompressedTexture2D_7yhko")
 stretch_mode = 1

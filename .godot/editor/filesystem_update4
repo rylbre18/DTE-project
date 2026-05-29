@@ -1,5 +1,3 @@
 res://game.tscn
 res://player.tscn
 res://tile_map.tscn
-res://movingroad.gd
-res://script/player.gd
