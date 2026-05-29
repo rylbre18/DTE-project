@@ -8,10 +8,11 @@
 position = Vector2(-7, -13)
 
 [node name="moving_road" parent="." instance=ExtResource("2_e2o6t")]
+clip_contents = true
 offset_left = 215.0
 offset_top = -131.0
 offset_right = 343.0
-offset_bottom = -3.0
+offset_bottom = 88.0
 scale = Vector2(12, 12)
 texture = ExtResource("2_feb5d")
 expand_mode = 1
