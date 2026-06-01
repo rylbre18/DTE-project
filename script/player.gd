@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 const ACCELERATION = 800
 const FRICTION = 1000
-const MAX_SPEED = 120
+const MAX_SPEED = 300
 
 enum {IDLE, RUN} 
 var state = IDLE
