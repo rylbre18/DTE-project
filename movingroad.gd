@@ -1,6 +1,6 @@
 extends TextureRect
 
-@export var scroll_speed: float = 300.0
+@export var scroll_speed: float = 700.0
 
 var _texture_height: float = 0.0
 var _scaled_height: float = 0.0

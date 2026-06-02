@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://brf5xyqt2kqmo"]
+
+[ext_resource type="Script" uid="uid://bgvong3vtddvw" path="res://traffic_car.gd" id="1_g8lor"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7jktm"]
+load_path = "res://.godot/imported/car_green_1.png-0968892725d675678cd45807a9350fc3.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ryrav"]
+size = Vector2(144, 256)
+
+[node name="TrafficCar" type="Area2D" unique_id=389568520]
+script = ExtResource("1_g8lor")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=46184408]
+position = Vector2(856, 8)
+scale = Vector2(2, 2)
+texture = SubResource("CompressedTexture2D_7jktm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=328038731]
+position = Vector2(856, 8)
+shape = SubResource("RectangleShape2D_ryrav")

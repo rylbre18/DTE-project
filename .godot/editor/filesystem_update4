@@ -3,3 +3,6 @@ res://player.tscn
 res://tile_map.tscn
 res://movingroad.gd
 res://script/player.gd
+res://traffic_car.gd
+res://traffic_spawner.gd
+res://traffic_car.tscn
