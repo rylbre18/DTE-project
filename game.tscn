@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://bij3sjw2ry2vj"]
+[gd_scene load_steps=6 format=3 uid="uid://bij3sjw2ry2vj"]
 
 [ext_resource type="PackedScene" uid="uid://d2k4svote5pja" path="res://player.tscn" id="1_80nbo"]
 [ext_resource type="PackedScene" uid="uid://botgmyfwq8hqf" path="res://tile_map.tscn" id="2_e2o6t"]
@@ -6,10 +6,10 @@
 [ext_resource type="PackedScene" uid="uid://brf5xyqt2kqmo" path="res://traffic_car.tscn" id="4_7jktm"]
 [ext_resource type="Script" uid="uid://321cxydu302r" path="res://traffic_spawner.gd" id="5_ryrav"]
 
-[node name="game" type="Node2D" unique_id=1051177033]
+[node name="game" type="Node2D"]
 position = Vector2(-7, -13)
 
-[node name="moving_road" parent="." unique_id=707550298 instance=ExtResource("2_e2o6t")]
+[node name="moving_road" parent="." instance=ExtResource("2_e2o6t")]
 clip_contents = true
 offset_left = 215.0
 offset_top = -131.0
@@ -19,21 +19,27 @@ scale = Vector2(12, 12)
 texture = ExtResource("2_feb5d")
 expand_mode = 1
 
-[node name="player" parent="." unique_id=1028285686 instance=ExtResource("1_80nbo")]
+[node name="player" parent="." groups=["player"] instance=ExtResource("1_80nbo")]
 position = Vector2(10, 14)
+collision_layer = 1
 
-[node name="TrafficCar" parent="." unique_id=389568520 instance=ExtResource("4_7jktm")]
+[node name="TrafficCar" parent="." instance=ExtResource("4_7jktm")]
 position = Vector2(-209, 13)
 
-[node name="TrafficSpawner" type="Node2D" parent="." unique_id=1935791207]
+[node name="TrafficSpawner" type="Node2D" parent="."]
 script = ExtResource("5_ryrav")
 
-[node name="Timer" type="Timer" parent="TrafficSpawner" unique_id=1548823068]
-wait_time = 1.5
+[node name="Timer" type="Timer" parent="TrafficSpawner"]
+wait_time = 2.0
 autostart = true
 
-[node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner" unique_id=448062808]
-offset_left = 215.0
-offset_top = -91.0
-offset_right = 1751.0
-offset_bottom = 1445.0
+[node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner"]
+offset_left = -545.0
+offset_top = -107.0
+offset_right = 871.0
+offset_bottom = 1429.0
+
+[node name="TrafficCar2" parent="." instance=ExtResource("4_7jktm")]
+position = Vector2(351, 29)
+
+[connection signal="body_entered" from="TrafficCar" to="TrafficCar" method="_on_body_entered"]

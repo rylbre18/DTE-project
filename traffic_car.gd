@@ -19,3 +19,17 @@ func _process(delta: float) -> void:
 	# (Assuming a standard screen height, adjust 900 if your screen is taller)
 	if position.y > 900:
 		queue_free()
+
+
+func _on_body_entered(body: Node2D) -> void:
+	
+	# Check if the object we bumped into is in the "player" group
+	if body.is_in_group("player"):
+		print("CRASH! Game Over.")
+		
+		# Option A: Freeze the game completely
+		get_tree().paused = true
+		
+		# Option B: Reload the scene to restart the game instantly
+		# (Comment out the line below if you prefer to just freeze the game)
+		get_tree().reload_current_scene()
