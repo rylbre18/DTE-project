@@ -24,19 +24,20 @@ position = Vector2(10, 14)
 collision_layer = 1
 
 [node name="TrafficCar" parent="." instance=ExtResource("4_7jktm")]
-position = Vector2(-209, 13)
+position = Vector2(-513, 21)
 
 [node name="TrafficSpawner" type="Node2D" parent="."]
 script = ExtResource("5_ryrav")
 
 [node name="Timer" type="Timer" parent="TrafficSpawner"]
+wait_time = 0.001
 autostart = true
 
 [node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner"]
-offset_left = -545.0
-offset_top = -107.0
-offset_right = 871.0
-offset_bottom = 1429.0
+offset_left = -601.0
+offset_top = -131.0
+offset_right = 815.0
+offset_bottom = 1405.0
 
 [node name="TrafficCar2" parent="." instance=ExtResource("4_7jktm")]
 position = Vector2(351, 29)
