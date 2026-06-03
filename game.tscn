@@ -1,15 +1,22 @@
-[gd_scene load_steps=6 format=3 uid="uid://bij3sjw2ry2vj"]
+[gd_scene format=3 uid="uid://bij3sjw2ry2vj"]
 
 [ext_resource type="PackedScene" uid="uid://d2k4svote5pja" path="res://player.tscn" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://gxsm57tojast" path="res://maingame.gd" id="1_j5wjh"]
 [ext_resource type="PackedScene" uid="uid://botgmyfwq8hqf" path="res://tile_map.tscn" id="2_e2o6t"]
 [ext_resource type="Texture2D" uid="uid://cjfaumh7ta7vo" path="res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png" id="2_feb5d"]
 [ext_resource type="PackedScene" uid="uid://brf5xyqt2kqmo" path="res://traffic_car.tscn" id="4_7jktm"]
 [ext_resource type="Script" uid="uid://321cxydu302r" path="res://traffic_spawner.gd" id="5_ryrav"]
+[ext_resource type="Script" uid="uid://c75hni1ku37bg" path="res://drop_off_gate.gd" id="6_eow3j"]
+[ext_resource type="Texture2D" uid="uid://biv7tap1vmj6m" path="res://kenney_racing-pack/PNG/Objects/barrier_white.png" id="7_j5wjh"]
 
-[node name="game" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vef74"]
+size = Vector2(212.26859, 62.984123)
+
+[node name="game" type="Node2D" unique_id=449504170]
 position = Vector2(-7, -13)
+script = ExtResource("1_j5wjh")
 
-[node name="moving_road" parent="." instance=ExtResource("2_e2o6t")]
+[node name="moving_road" parent="." unique_id=125616070 instance=ExtResource("2_e2o6t")]
 clip_contents = true
 offset_left = 215.0
 offset_top = -131.0
@@ -19,27 +26,42 @@ scale = Vector2(12, 12)
 texture = ExtResource("2_feb5d")
 expand_mode = 1
 
-[node name="player" parent="." groups=["player"] instance=ExtResource("1_80nbo")]
+[node name="player" parent="." unique_id=1033046394 groups=["player"] instance=ExtResource("1_80nbo")]
 position = Vector2(10, 14)
 collision_layer = 1
 
-[node name="TrafficCar" parent="." instance=ExtResource("4_7jktm")]
+[node name="TrafficCar" parent="." unique_id=353544842 instance=ExtResource("4_7jktm")]
 position = Vector2(-209, 13)
 
-[node name="TrafficSpawner" type="Node2D" parent="."]
+[node name="TrafficSpawner" type="Node2D" parent="." unique_id=1721288584]
 script = ExtResource("5_ryrav")
 
-[node name="Timer" type="Timer" parent="TrafficSpawner"]
+[node name="Timer" type="Timer" parent="TrafficSpawner" unique_id=1886759273]
 wait_time = 2.0
 autostart = true
 
-[node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner"]
+[node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner" unique_id=197414521]
 offset_left = -545.0
 offset_top = -107.0
 offset_right = 871.0
 offset_bottom = 1429.0
 
-[node name="TrafficCar2" parent="." instance=ExtResource("4_7jktm")]
+[node name="TrafficCar2" parent="." unique_id=1012642680 instance=ExtResource("4_7jktm")]
 position = Vector2(351, 29)
 
+[node name="DropOffGate" type="Area2D" parent="." unique_id=1369359471]
+position = Vector2(-209, 13)
+script = ExtResource("6_eow3j")
+
+[node name="Sprite2D" type="Sprite2D" parent="DropOffGate" unique_id=445422030]
+position = Vector2(1139.75, -32)
+scale = Vector2(7.964286, 1.016129)
+texture = ExtResource("7_j5wjh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DropOffGate/Sprite2D" unique_id=2108254696]
+position = Vector2(2.201538, 0)
+scale = Vector2(0.9999999, 1)
+shape = SubResource("RectangleShape2D_vef74")
+
 [connection signal="body_entered" from="TrafficCar" to="TrafficCar" method="_on_body_entered"]
+[connection signal="body_entered" from="DropOffGate" to="DropOffGate" method="_on_body_entered"]
