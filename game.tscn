@@ -40,5 +40,3 @@ offset_bottom = 1429.0
 
 [node name="TrafficCar2" parent="." instance=ExtResource("4_7jktm")]
 position = Vector2(351, 29)
-
-[connection signal="body_entered" from="TrafficCar" to="TrafficCar" method="_on_body_entered"]
