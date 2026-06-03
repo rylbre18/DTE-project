@@ -30,7 +30,6 @@ position = Vector2(-209, 13)
 script = ExtResource("5_ryrav")
 
 [node name="Timer" type="Timer" parent="TrafficSpawner"]
-wait_time = 2.0
 autostart = true
 
 [node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner"]

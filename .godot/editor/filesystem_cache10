@@ -1,14 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1780436648
+::res://::1780525104
 character_body_2d.tscn::PackedScene/PackedScene::5708719465678265901::1779656048::0::1::::<><><>0<>0<><>::uid://4wglc7m075ae::::res://Fast Fury Assets/Vehicles/Racing Cars/racing_cars_red.png
 collision_shape_2d.gd::GDScript/GDScript::1189627198290937224::1779656048::0::1::::<>CharacterBody2D<><>0<>0<><>::
-game.tscn::PackedScene::2968243560617945071::1780436631::0::1::::<><><>0<>0<><>::uid://d2k4svote5pja::::res://player.tscn<>uid://botgmyfwq8hqf::::res://tile_map.tscn<>uid://cjfaumh7ta7vo::::res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png<>uid://brf5xyqt2kqmo::::res://traffic_car.tscn<>uid://321cxydu302r::::res://traffic_spawner.gd
+game.tscn::PackedScene::2968243560617945071::1780525023::0::1::::<><><>0<>0<><>::uid://d2k4svote5pja::::res://player.tscn<>uid://botgmyfwq8hqf::::res://tile_map.tscn<>uid://cjfaumh7ta7vo::::res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png<>uid://brf5xyqt2kqmo::::res://traffic_car.tscn<>uid://321cxydu302r::::res://traffic_spawner.gd
 movingroad.gd::GDScript/GDScript::1827876782838257894::1780434913::0::1::::<>TextureRect<><>0<>0<><>::
-player.tscn::PackedScene::9076798669414720894::1780436631::0::1::::<><><>0<>0<><>::uid://p70a6oge3t0c::::res://script/player.gd<>uid://bp8n86mghi304::::res://kenney_racing-pack/PNG/Motorcycles/motorcycle_red.png
+player.tscn::PackedScene::9076798669414720894::1780525023::0::1::::<><><>0<>0<><>::uid://p70a6oge3t0c::::res://script/player.gd<>uid://bp8n86mghi304::::res://kenney_racing-pack/PNG/Motorcycles/motorcycle_red.png
 sprite_2d.gd::GDScript/GDScript::7993235531404034612::1779656066::0::1::::<>RefCounted<><>0<>0<><>::
-tile_map.tscn::PackedScene::3408674672742839625::1780436631::0::1::::<><><>0<>0<><>::uid://1bo4mjit2ghy::::res://movingroad.gd
-traffic_car.gd::GDScript::2851779290950325716::1780436537::0::1::::<>Area2D<><>0<>0<><>::
-traffic_car.tscn::PackedScene::3591816783529797190::1780436631::0::1::::<><><>0<>0<><>::uid://bgvong3vtddvw::::res://traffic_car.gd
+tile_map.tscn::PackedScene::3408674672742839625::1780525023::0::1::::<><><>0<>0<><>::uid://1bo4mjit2ghy::::res://movingroad.gd
+traffic_car.gd::GDScript/GDScript::2851779290950325716::1780436537::0::1::::<>Area2D<><>0<>0<><>::
+traffic_car.tscn::PackedScene::3591816783529797190::1780525023::0::1::::<><><>0<>0<><>::uid://bgvong3vtddvw::::res://traffic_car.gd
 traffic_spawner.gd::GDScript/GDScript::2022609279900781195::1780435650::0::1::::<>Node2D<><>0<>0<><>::
 untitled_8_01.gd::GDScript/GDScript::9150574705308019881::1779656066::0::1::::<>CharacterBody2D<><>0<>0<><>::
 untitled_8_01.tscn::PackedScene/PackedScene::2261827229564266170::1779747001::0::1::::<><><>0<>0<><>::uid://bp8n86mghi304::::res://kenney_racing-pack/PNG/Motorcycles/motorcycle_red.png<>uid://p70a6oge3t0c::::res://script/player.gd
