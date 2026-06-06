@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://crd0k016qljjb"]
+
+[ext_resource type="Script" uid="uid://c75hni1ku37bg" path="res://drop_off_gate.gd" id="1_xjqfg"]
+[ext_resource type="Texture2D" uid="uid://biv7tap1vmj6m" path="res://kenney_racing-pack/PNG/Objects/barrier_white.png" id="2_eh3sr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j5wjh"]
+size = Vector2(1568.0004, 58)
+
+[node name="DropOffGate" type="Area2D" unique_id=1873510672]
+script = ExtResource("1_xjqfg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2071711278]
+modulate = Color(1, 1, 1, 0.26666668)
+position = Vector2(784, 40)
+scale = Vector2(7.5047617, 1)
+texture = ExtResource("2_eh3sr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=732252182]
+position = Vector2(800, 32)
+shape = SubResource("RectangleShape2D_j5wjh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -6,28 +6,26 @@
 [ext_resource type="Texture2D" uid="uid://cjfaumh7ta7vo" path="res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png" id="2_feb5d"]
 [ext_resource type="PackedScene" uid="uid://brf5xyqt2kqmo" path="res://traffic_car.tscn" id="4_7jktm"]
 [ext_resource type="Script" uid="uid://321cxydu302r" path="res://traffic_spawner.gd" id="5_ryrav"]
-[ext_resource type="Script" uid="uid://c75hni1ku37bg" path="res://drop_off_gate.gd" id="6_eow3j"]
-[ext_resource type="Texture2D" uid="uid://biv7tap1vmj6m" path="res://kenney_racing-pack/PNG/Objects/barrier_white.png" id="7_j5wjh"]
+[ext_resource type="PackedScene" uid="uid://crd0k016qljjb" path="res://drop_off_gate.tscn" id="7_eow3j"]
+[ext_resource type="Texture2D" uid="uid://dyjkna114s06m" path="res://kenney_racing-pack/PNG/Tiles/Grass/land_grass11.png" id="8_j5wjh"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_vef74"]
-size = Vector2(212.26859, 62.984123)
-
-[node name="game" type="Node2D" unique_id=449504170]
+[node name="game" type="Node2D" unique_id=449504170 node_paths=PackedStringArray("score_label")]
 position = Vector2(-7, -13)
 script = ExtResource("1_j5wjh")
+score_label = NodePath("gameUI/ScoreLabel")
 
 [node name="moving_road" parent="." unique_id=125616070 instance=ExtResource("2_e2o6t")]
 clip_contents = true
-offset_left = 215.0
-offset_top = -131.0
-offset_right = 343.0
-offset_bottom = 88.0
+offset_left = 191.0
+offset_top = -139.0
+offset_right = 319.0
+offset_bottom = 145.66669
 scale = Vector2(12, 12)
 texture = ExtResource("2_feb5d")
 expand_mode = 1
 
 [node name="player" parent="." unique_id=1033046394 groups=["player"] instance=ExtResource("1_80nbo")]
-position = Vector2(10, 14)
+position = Vector2(303, 213)
 collision_layer = 1
 
 [node name="TrafficCar" parent="." unique_id=353544842 instance=ExtResource("4_7jktm")]
@@ -37,31 +35,37 @@ position = Vector2(-209, 13)
 script = ExtResource("5_ryrav")
 
 [node name="Timer" type="Timer" parent="TrafficSpawner" unique_id=1886759273]
-wait_time = 0.001
+wait_time = 2.0
 autostart = true
 
 [node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner" unique_id=197414521]
-offset_left = -545.0
-offset_top = -107.0
-offset_right = 871.0
-offset_bottom = 1429.0
+offset_left = -457.0
+offset_top = -131.0
+offset_right = 959.0
+offset_bottom = 1405.0
 
 [node name="TrafficCar2" parent="." unique_id=1012642680 instance=ExtResource("4_7jktm")]
 position = Vector2(351, 29)
 
-[node name="DropOffGate" type="Area2D" parent="." unique_id=1369359471]
-position = Vector2(-209, 13)
-script = ExtResource("6_eow3j")
+[node name="DropOffGate" parent="." unique_id=1873510672 instance=ExtResource("7_eow3j")]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+position = Vector2(-105, -27)
 
-[node name="Sprite2D" type="Sprite2D" parent="DropOffGate" unique_id=445422030]
-position = Vector2(1139.75, -32)
-scale = Vector2(7.964286, 1.016129)
-texture = ExtResource("7_j5wjh")
+[node name="gameUI" type="CanvasLayer" parent="." unique_id=521837912]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="DropOffGate/Sprite2D" unique_id=2108254696]
-position = Vector2(2.201538, 0)
-scale = Vector2(0.9999999, 1)
-shape = SubResource("RectangleShape2D_vef74")
+[node name="ScoreLabel" type="Label" parent="gameUI" unique_id=226829388]
+offset_right = 107.0
+offset_bottom = 49.0
+text = "Time Left: 30s
+Cash: $0"
 
-[connection signal="body_entered" from="TrafficCar" to="TrafficCar" method="_on_body_entered"]
-[connection signal="body_entered" from="DropOffGate" to="DropOffGate" method="_on_body_entered"]
+[node name="LandGrass11" type="Sprite2D" parent="." unique_id=35020672]
+position = Vector2(-201, 1569)
+scale = Vector2(6.125, 26.6875)
+texture = ExtResource("8_j5wjh")
+
+[node name="LandGrass12" type="Sprite2D" parent="." unique_id=1041766922]
+position = Vector2(2435, 1569)
+scale = Vector2(11.0625, 26.6875)
+texture = ExtResource("8_j5wjh")
