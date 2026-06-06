@@ -1,7 +1,7 @@
 extends Area2D
 
 # MUST match the scroll_speed of your ParallaxBackground road!
-@export var road_speed: float = 300.0
+@export var road_speed: float = 1000.0
 
 # How fast this AI car drives forward. 
 # 0 = Broken down car (flies backward fast)
