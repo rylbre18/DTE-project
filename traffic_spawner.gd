@@ -1,30 +1,53 @@
 extends Node2D
 
-var traffic_scene = preload("res://traffic_car.tscn")
-var gate_scene = preload("res://drop_off_gate.tscn")
+# --- Bulletproof File Connections ---
+var car_scene: PackedScene = preload("res://traffic_car.tscn")
+@export var gate_scene: PackedScene = preload("res://drop_off_gate.tscn")
 
-var spawn_count: int = 0
+# --- Spawn Settings ---
+@export var gate_spawn_chance: float = 0.3
+@export var highway_width: float = 400.0
+
 
 func _ready() -> void:
-	$Timer.timeout.connect(_on_timer_timeout)
+	# This forces Godot to completely scramble its random number generator 
+	# so it doesn't repeat the same numbers or lines!
+	randomize()
+	
+	if has_node("Timer"):
+		var timer_node = get_node("Timer")
+		timer_node.timeout.connect(_on_timer_timeout)
+		print("Spawner: Connected to Timer successfully!")
+
 
 func _on_timer_timeout() -> void:
-	if not has_node("SpawnZone"): return
-	var spawn_zone = $SpawnZone as ReferenceRect
+	spawn_car()
+
+	if randf() < gate_spawn_chance:
+		spawn_gate()
+
+
+func spawn_car() -> void:
+	if car_scene == null:
+		return
+		
+	var car = car_scene.instantiate()
+	add_child(car)
 	
-	# 1. THIS LINE MUST COME FIRST! This creates the variable.
-	var random_x = randf_range(spawn_zone.global_position.x + 30, spawn_zone.global_position.x + spawn_zone.size.x - 30)
+	# CHANGED: Increased from 250 to 400 to stretch them to the edges of the road
+	var random_x = randf_range(-700.0, 700.0)
 	
-	spawn_count += 1
+	car.position = Vector2(random_x, 0)
+	print("Car spawned at random X: ", random_x)
+
+
+func spawn_gate() -> void:
+	if gate_scene == null:
+		return
+		
+	var gate = gate_scene.instantiate()
+	add_child(gate)
 	
-	# 2. Now the lines below can safely use "random_x" because it already exists
-	if spawn_count % 4 == 0:
-		var new_gate = gate_scene.instantiate()
-		new_gate.global_position = Vector2(random_x, spawn_zone.global_position.y)
-		get_parent().add_child(new_gate)
-		print("Spawned a Delivery Gate!")
-	else:
-		var new_car = traffic_scene.instantiate()
-		new_car.global_position = Vector2(random_x, spawn_zone.global_position.y)
-		new_car.driving_speed = randf_range(20.0, 220.0)
-		get_parent().add_child(new_car)
+	# SPREAD FOR GATES
+	var random_x = randf_range(-250.0, 250.0)
+	gate.position = Vector2(random_x, 0)

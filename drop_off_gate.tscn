@@ -10,6 +10,7 @@ size = Vector2(1568.0004, 58)
 script = ExtResource("1_xjqfg")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2071711278]
+visible = false
 modulate = Color(1, 1, 1, 0.26666668)
 position = Vector2(784, 40)
 scale = Vector2(7.5047617, 1)

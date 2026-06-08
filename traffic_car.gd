@@ -6,7 +6,7 @@ extends Area2D
 # How fast this AI car drives forward. 
 # 0 = Broken down car (flies backward fast)
 # 150 = Slower than player (drifts backward down the screen)
-@export var driving_speed: float = 100.0
+@export var driving_speed: float = .0
 
 func _process(delta: float) -> void:
 	# Relative speed math: Road Speed minus Car Speed
@@ -17,19 +17,18 @@ func _process(delta: float) -> void:
 	
 	# Automatically clean up the car once it passes the bottom of the screen
 	# (Assuming a standard screen height, adjust 900 if your screen is taller)
-	if position.y > 900:
+	if position.y > 1500:
 		queue_free()
 
 
 func _on_body_entered(body: Node2D) -> void:
-	
-	# Check if the object we bumped into is in the "player" group
-	if body.is_in_group("player"):
-		print("CRASH! Game Over.")
+	if body.is_in_group("player") or body.name == "Player":
+		print("CRASH DETECTED BY CAR!")
 		
-		# Option A: Freeze the game completely
-		get_tree().paused = true
+		# Directly find the GameOverUI in the running game tree
+		var game_over_screen = get_tree().current_scene.find_child("GameOverUI", true, false)
 		
-		# Option B: Reload the scene to restart the game instantly
-		# (Comment out the line below if you prefer to just freeze the game)
-		get_tree().reload_current_scene()
+		if game_over_screen:
+			game_over_screen.trigger_game_over()
+		else:
+			print("Car crashed, but couldn't find the GameOverUI node in the scene!")

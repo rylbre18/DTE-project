@@ -7,3 +7,6 @@ res://maingame.gd
 res://movingroad.gd
 res://player.tscn
 res://drop_off_gate.tscn
+res://sprite_2d.gd
+res://game_over_ui.gd
+res://script/player.gd

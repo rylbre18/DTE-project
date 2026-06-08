@@ -1,25 +1,28 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780711074
+::res://::1780814384
 character_body_2d.tscn::PackedScene::5708719465678265901::1779655899::0::1::::<><><>0<>0<><>::uid://4wglc7m075ae::::res://Fast Fury Assets/Vehicles/Racing Cars/racing_cars_red.png
 collision_shape_2d.gd::GDScript::1189627198290937224::1779587207::0::1::::<>CharacterBody2D<><>0<>0<><>::
-game.tscn::PackedScene::2968243560617945071::1780711074::0::1::::<><><>0<>0<><>::uid://d2k4svote5pja::::res://player.tscn<>uid://gxsm57tojast::::res://maingame.gd<>uid://botgmyfwq8hqf::::res://tile_map.tscn<>uid://cjfaumh7ta7vo::::res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png<>uid://brf5xyqt2kqmo::::res://traffic_car.tscn<>uid://321cxydu302r::::res://traffic_spawner.gd<>uid://c75hni1ku37bg::::res://drop_off_gate.gd<>uid://biv7tap1vmj6m::::res://kenney_racing-pack/PNG/Objects/barrier_white.png
-movingroad.gd::GDScript::1827876782838257894::1780711059::0::1::::<>TextureRect<><>0<>0<><>::
-player.tscn::PackedScene::9076798669414720894::1780032785::0::1::::<><><>0<>0<><>::uid://p70a6oge3t0c::::res://script/player.gd<>uid://bp8n86mghi304::::res://kenney_racing-pack/PNG/Motorcycles/motorcycle_red.png
-drop_off_gate.gd::GDScript::7081264391529095048::1780474300::0::1::::<>Area2D<><>0<>0<><>::
-maingame.gd::GDScript::469729711584806015::1780473785::0::1::::<>Node2D<><>0<>0<><>::
-sprite_2d.gd::GDScript::7993235531404034612::1779597986::0::1::::<>RefCounted<><>0<>0<><>::
+game.tscn::PackedScene::2968243560617945071::1780813350::0::1::::<><><>0<>0<><>::uid://d2k4svote5pja::::res://player.tscn<>uid://gxsm57tojast::::res://maingame.gd<>uid://botgmyfwq8hqf::::res://tile_map.tscn<>uid://cjfaumh7ta7vo::::res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png<>uid://brf5xyqt2kqmo::::res://traffic_car.tscn<>uid://321cxydu302r::::res://traffic_spawner.gd<>uid://crd0k016qljjb::::res://drop_off_gate.tscn<>uid://dyjkna114s06m::::res://kenney_racing-pack/PNG/Tiles/Grass/land_grass11.png
+movingroad.gd::GDScript::1827876782838257894::1780711187::0::1::::<>TextureRect<><>0<>0<><>::
+player.tscn::PackedScene::9076798669414720894::1780813221::0::1::::<><><>0<>0<><>::uid://p70a6oge3t0c::::res://script/player.gd<>uid://bp8n86mghi304::::res://kenney_racing-pack/PNG/Motorcycles/motorcycle_red.png
+drop_off_gate.gd::GDScript::7081264391529095048::1780726924::0::1::::<>Area2D<><>0<>0<><>::
+maingame.gd::GDScript::469729711584806015::1780737159::0::1::::<>Node2D<><>0<>0<><>::
+drop_off_gate.tscn::PackedScene::5973781979932133519::1780727089::0::1::::<><><>0<>0<><>::uid://c75hni1ku37bg::::res://drop_off_gate.gd<>uid://biv7tap1vmj6m::::res://kenney_racing-pack/PNG/Objects/barrier_white.png
+sprite_2d.gd::GDScript::7993235531404034612::1780726924::0::1::::<>RefCounted<><>0<>0<><>::
 tile_map.tscn::PackedScene::3408674672742839625::1780032785::0::1::::<><><>0<>0<><>::uid://1bo4mjit2ghy::::res://movingroad.gd
-traffic_car.gd::GDScript::2851779290950325716::1780711059::0::1::::<>Area2D<><>0<>0<><>::
-traffic_car.tscn::PackedScene::3591816783529797190::1780711059::0::1::::<><><>0<>0<><>::uid://bgvong3vtddvw::::res://traffic_car.gd
-traffic_spawner.gd::GDScript::2022609279900781195::1780525349::0::1::::<>Node2D<><>0<>0<><>::
+traffic_car.gd::GDScript::2851779290950325716::1780813382::0::1::::<>Area2D<><>0<>0<><>::
+traffic_car.tscn::PackedScene::3591816783529797190::1780811434::0::1::::<><><>0<>0<><>::uid://bgvong3vtddvw::::res://traffic_car.gd
+traffic_spawner.gd::GDScript::2022609279900781195::1780812073::0::1::::<>Node2D<><>0<>0<><>::
 untitled_8_01.gd::GDScript::9150574705308019881::1779597846::0::1::::<>CharacterBody2D<><>0<>0<><>::
 untitled_8_01.tscn::PackedScene::2261827229564266170::1779657908::0::1::::<><><>0<>0<><>::uid://bp8n86mghi304::::res://kenney_racing-pack/PNG/Motorcycles/motorcycle_red.png<>uid://p70a6oge3t0c::::res://script/player.gd
-::res://kenney_racing-pack/::1780711059
+::res://Explosion/::1780814580
+Gemini_Generated_Image_z5qh87z5qh87z5qh.png::CompressedTexture2D::6846295710405356237::1780814580::1780814580::1::::<><><>0<>0<>a3c811c80b05964094611f7ea4e2a852<>res://.godot/imported/Gemini_Generated_Image_z5qh87z5qh87z5qh.png-14b847bc699208bc11040e41c594be98.ctex::
+::res://kenney_racing-pack/::1780711186
 License.txt::TextFile::-1::1779595631::0::1::::<><><>0<>0<><>::
 Preview.png::CompressedTexture2D::770776955394037177::1779595631::1780711088::1::::<><><>0<>0<>998428e4ab507a7b1a5a6f33180ff9fe<>res://.godot/imported/Preview.png-77cba373a215a4cad578cf175659fea6.ctex::
 Sample.png::CompressedTexture2D::1369359395785391416::1779595631::1780711088::1::::<><><>0<>0<>2dc7cb0c79a1df534fa45658a24ab74c<>res://.godot/imported/Sample.png-62c1f901979f1012113766b02113a9fc.ctex::
-::res://kenney_racing-pack/PNG/::1780032870
-::res://kenney_racing-pack/PNG/Cars/::1780711059
+::res://kenney_racing-pack/PNG/::1780711186
+::res://kenney_racing-pack/PNG/Cars/::1780711186
 car_black_1.png::CompressedTexture2D::150142085830844750::1779595631::1780711088::1::::<><><>0<>0<>51043d0971d65ac26780edf2e8ec1aaf<>res://.godot/imported/car_black_1.png-2f996c1bd4fe03694829f2a4473be2af.ctex::
 car_black_2.png::CompressedTexture2D::4785195228782210459::1779595631::1780711088::1::::<><><>0<>0<>e1a1c99b6c90f8f591cd880350a13cbf<>res://.godot/imported/car_black_2.png-0e1fa4136b2e484c1959afe1381e822e.ctex::
 car_black_3.png::CompressedTexture2D::1806449855853931812::1779595631::1780711088::1::::<><><>0<>0<>94bf8ae6c2b7012c850efeed88661b8a<>res://.godot/imported/car_black_3.png-33ff3cc68d5a261dc2332f7abf59374b.ctex::
@@ -70,7 +73,7 @@ car_yellow_small_2.png::CompressedTexture2D::1074724427493208188::1779595631::17
 car_yellow_small_3.png::CompressedTexture2D::3355574379661028247::1779595631::1780711088::1::::<><><>0<>0<>cc432ab1e10b4e61e97e54ee6eacda1f<>res://.godot/imported/car_yellow_small_3.png-b128b14d7b6888ffd53655eac95c7953.ctex::
 car_yellow_small_4.png::CompressedTexture2D::8887255226728502500::1779595631::1780711088::1::::<><><>0<>0<>5f6226df253638eb689af207854b0e36<>res://.godot/imported/car_yellow_small_4.png-094037672225f92fd8c2137617a26a89.ctex::
 car_yellow_small_5.png::CompressedTexture2D::5451929703941098376::1779595631::1780711088::1::::<><><>0<>0<>ab1053f4f9385bee3bc52126ef1fd1de<>res://.godot/imported/car_yellow_small_5.png-ef1187825ff8773298fd9d1e48d1ae30.ctex::
-::res://kenney_racing-pack/PNG/Characters/::1780711059
+::res://kenney_racing-pack/PNG/Characters/::1780711186
 character_black_blue.png::CompressedTexture2D::6150262394113496875::1779595631::1780711088::1::::<><><>0<>0<>9457b24ff6b000da8dd7ca483b444f08<>res://.godot/imported/character_black_blue.png-6604438e24e8bf75b75cec6dd7746b34.ctex::
 character_black_green.png::CompressedTexture2D::7267101823062156316::1779595631::1780711088::1::::<><><>0<>0<>0e2130f8a28b7c03791a2672b6e4911a<>res://.godot/imported/character_black_green.png-e293914ecbf1b77215fdfbc6907160e7.ctex::
 character_black_red.png::CompressedTexture2D::5550757667954361807::1779595631::1780711088::1::::<><><>0<>0<>2756096ccba34756920b89208fafd13b<>res://.godot/imported/character_black_red.png-645c5bd3111e0b2a1a1d1da9097a7084.ctex::
@@ -88,14 +91,14 @@ racer_blue.png::CompressedTexture2D::4488817799975844806::1779595631::1780711088
 racer_green.png::CompressedTexture2D::7622228440288227272::1779595631::1780711088::1::::<><><>0<>0<>2d557cbfeab47fc4bfa70026a2fdc4ad<>res://.godot/imported/racer_green.png-58fd2966ade6a37a675c666d0d9942dc.ctex::
 racer_red.png::CompressedTexture2D::3096232193771863605::1779595631::1780711088::1::::<><><>0<>0<>9ac2e7cce23f98c85756787332b25833<>res://.godot/imported/racer_red.png-0f2af503e2fc7f60e45cd6034f15cb26.ctex::
 racer_yellow.png::CompressedTexture2D::5960607758531691056::1779595631::1780711088::1::::<><><>0<>0<>6de62b0694c1c55834bf3587da934250<>res://.godot/imported/racer_yellow.png-9e687317d984efdff9b68768a43e9864.ctex::
-::res://kenney_racing-pack/PNG/Motorcycles/::1780711059
+::res://kenney_racing-pack/PNG/Motorcycles/::1780711186
 motorcycle_black.png::CompressedTexture2D::3386360276808434083::1779595631::1780711088::1::::<><><>0<>0<>e400868012b447640b3fd36de56d83fd<>res://.godot/imported/motorcycle_black.png-10f9a2b879005356e7608a9567721ddc.ctex::
 motorcycle_blue.png::CompressedTexture2D::7742661820251866428::1779595631::1780711088::1::::<><><>0<>0<>d501ad82b928d77848d63ce5075fc4b5<>res://.godot/imported/motorcycle_blue.png-5918ef4866f595c70bff6cb192572006.ctex::
 motorcycle_green.png::CompressedTexture2D::1707075663502908638::1779595631::1780711088::1::::<><><>0<>0<>a219a39726ca72df08e17209e1679db8<>res://.godot/imported/motorcycle_green.png-ba33f24b21b74503f0bd562634b55b2d.ctex::
 motorcycle_red.png::CompressedTexture2D::3508227703296207055::1779595631::1780711088::1::::<><><>0<>0<>14b4f78db4fbea3142badf7664e57964<>res://.godot/imported/motorcycle_red.png-77439eea3cb18a3648926f0f61c3ad1e.ctex::
 motorcycle_yellow.png::CompressedTexture2D::8870078476846082806::1779595631::1780711088::1::::<><><>0<>0<>eb2a5dcc36a691f46884e017f0515406<>res://.godot/imported/motorcycle_yellow.png-4b6f1b4841a7374e2e5f4c589e0fa08e.ctex::
 new_script.gd::GDScript::2270372323287872812::1779598173::0::1::::<>Node<><>0<>0<><>::
-::res://kenney_racing-pack/PNG/Objects/::1780711059
+::res://kenney_racing-pack/PNG/Objects/::1780711186
 arrow_white.png::CompressedTexture2D::7759963904236937213::1779595631::1780711088::1::::<><><>0<>0<>7561c75f9b75ad398c8e37ebba583297<>res://.godot/imported/arrow_white.png-a8970f9eebbcb101bf68a831e93d2d2f.ctex::
 arrow_yellow.png::CompressedTexture2D::8186362673434238998::1779595631::1780711088::1::::<><><>0<>0<>d6d51abec76077864c6a7b699afd22c3<>res://.godot/imported/arrow_yellow.png-5b64cb9fa05f81ff1279a13915d90397.ctex::
 barrel_blue.png::CompressedTexture2D::1109682350407296971::1779595631::1780711088::1::::<><><>0<>0<>90f99577cf91e8e42e556c28ebca8e00<>res://.godot/imported/barrel_blue.png-25a06a10e5786038eed48064d817e73c.ctex::
@@ -135,8 +138,8 @@ tribune_empty.png::CompressedTexture2D::3425800371377435936::1779595631::1780711
 tribune_full.png::CompressedTexture2D::81296550232915238::1779595631::1780711088::1::::<><><>0<>0<>c3ecad5cab84d333cf4b43149c07efb8<>res://.godot/imported/tribune_full.png-d6fe74ad533b54d4a64acba26861ff61.ctex::
 tribune_overhang_red.png::CompressedTexture2D::980953261170451129::1779595631::1780711088::1::::<><><>0<>0<>7eb20949239db7b461c03311b510441d<>res://.godot/imported/tribune_overhang_red.png-372bc19595092eaa591fd654310bd56c.ctex::
 tribune_overhang_striped.png::CompressedTexture2D::203855509067541931::1779595631::1780711088::1::::<><><>0<>0<>01c8df0547f1fe163fa5600c157dc82a<>res://.godot/imported/tribune_overhang_striped.png-e653f7ba31e315924b692801c7fb8033.ctex::
-::res://kenney_racing-pack/PNG/Tiles/::1780032870
-::res://kenney_racing-pack/PNG/Tiles/Asphalt road/::1780711059
+::res://kenney_racing-pack/PNG/Tiles/::1780711186
+::res://kenney_racing-pack/PNG/Tiles/Asphalt road/::1780711186
 road_asphalt01.png::CompressedTexture2D::5414899207350084680::1779595631::1780711088::1::::<><><>0<>0<>fd088cb2664e12cb01b53f7e5981f0af<>res://.godot/imported/road_asphalt01.png-2a6dd331812525f8790451e75c2035c1.ctex::
 road_asphalt02.png::CompressedTexture2D::7966407006310031130::1779595631::1780711088::1::::<><><>0<>0<>4b3778b1ff9968992cb8f4214cfc957d<>res://.godot/imported/road_asphalt02.png-4a066a3c03dc14a4ca2348f57cdb3bc4.ctex::
 road_asphalt03.png::CompressedTexture2D::5178698373679658088::1779595631::1780711088::1::::<><><>0<>0<>b43669c7b63213deba3f597da2612e0d<>res://.godot/imported/road_asphalt03.png-672426b346dad860a5626fa1142d3cfc.ctex::
@@ -227,7 +230,7 @@ road_asphalt87.png::CompressedTexture2D::5016165005237710543::1779595631::178071
 road_asphalt88.png::CompressedTexture2D::4826688918496543999::1779595631::1780711088::1::::<><><>0<>0<>9ab7cac54b4e130b473a1f06e74174f3<>res://.godot/imported/road_asphalt88.png-390be036f04939d7290352db57eb6ade.ctex::
 road_asphalt89.png::CompressedTexture2D::1422805567101439220::1779595631::1780711088::1::::<><><>0<>0<>818f95b2ae795ae3f330e5cf14901ef0<>res://.godot/imported/road_asphalt89.png-7eb42f451d8c9819db85a00ef2b3a485.ctex::
 road_asphalt90.png::CompressedTexture2D::5404716543857012047::1779595631::1780711088::1::::<><><>0<>0<>ddd4832564501ba6df6d55742fa54974<>res://.godot/imported/road_asphalt90.png-2844a12449ae466807a77eb189df5cc2.ctex::
-::res://kenney_racing-pack/PNG/Tiles/Dirt/::1780711059
+::res://kenney_racing-pack/PNG/Tiles/Dirt/::1780711186
 land_dirt01.png::CompressedTexture2D::196078419046932632::1779595631::1780711088::1::::<><><>0<>0<>46c023acf779daab27ed781c87178714<>res://.godot/imported/land_dirt01.png-c996b9f54ba59cd6a34923718be6f2ed.ctex::
 land_dirt02.png::CompressedTexture2D::8996942678589918995::1779595631::1780711088::1::::<><><>0<>0<>917f2a2538ce59f7ed55aca19d881a96<>res://.godot/imported/land_dirt02.png-fdcdd348a42b09b46962b253427a9904.ctex::
 land_dirt03.png::CompressedTexture2D::6416870402524712782::1779595631::1780711088::1::::<><><>0<>0<>ffe1676824b72f6056ef6cd2913d6f21<>res://.godot/imported/land_dirt03.png-4964c26af96bae5ca607d4f5309d0b9e.ctex::
@@ -242,7 +245,7 @@ land_dirt11.png::CompressedTexture2D::6256148197603815535::1779595631::178071108
 land_dirt12.png::CompressedTexture2D::7751148277171540211::1779595631::1780711088::1::::<><><>0<>0<>0414e744e4623bf41a64443a02d283cb<>res://.godot/imported/land_dirt12.png-013993f06e3d6ae3221140a23f8b6327.ctex::
 land_dirt13.png::CompressedTexture2D::6836743761859502849::1779595631::1780711088::1::::<><><>0<>0<>95fbed59b171045c361639e29ee3da8a<>res://.godot/imported/land_dirt13.png-22620c54079cf25aa51aea56437ce70c.ctex::
 land_dirt14.png::CompressedTexture2D::658307498714741000::1779595631::1780711088::1::::<><><>0<>0<>c64f3428c27a854c51bf237dce19710d<>res://.godot/imported/land_dirt14.png-8cb14cd3c76800226abf1576da72bca6.ctex::
-::res://kenney_racing-pack/PNG/Tiles/Dirt road/::1780711059
+::res://kenney_racing-pack/PNG/Tiles/Dirt road/::1780711186
 road_dirt01.png::CompressedTexture2D::9058009119666728980::1779595631::1780711088::1::::<><><>0<>0<>cc5a4df6dad2470c646b85545ccf2bcd<>res://.godot/imported/road_dirt01.png-3821dcd760c360e454b50604bcdb2b72.ctex::
 road_dirt02.png::CompressedTexture2D::1877418918850805190::1779595631::1780711088::1::::<><><>0<>0<>741f3f21be33f03cd7c285b4c0720f0d<>res://.godot/imported/road_dirt02.png-b31cd5556c46894e5998c4b430fead46.ctex::
 road_dirt03.png::CompressedTexture2D::3546623171935595625::1779595631::1780711088::1::::<><><>0<>0<>feec13a7e2d0598a477149ebaa9e1891<>res://.godot/imported/road_dirt03.png-bf05ee8fc047ecaa753e9cbf303170e4.ctex::
@@ -333,7 +336,7 @@ road_dirt87.png::CompressedTexture2D::5211120130385454501::1779595631::178071108
 road_dirt88.png::CompressedTexture2D::7748526779221839380::1779595631::1780711088::1::::<><><>0<>0<>9d35adee5fe10344cdb4504c6cc9494b<>res://.godot/imported/road_dirt88.png-d54e54c61f0bd8b2c67b56547e2ffa7c.ctex::
 road_dirt89.png::CompressedTexture2D::3535739150143255362::1779595631::1780711088::1::::<><><>0<>0<>994f26c69f7753f5eefeb7799edc9642<>res://.godot/imported/road_dirt89.png-d89e9980569fad0643a05f72d8733b21.ctex::
 road_dirt90.png::CompressedTexture2D::6373069874948719513::1779595631::1780711088::1::::<><><>0<>0<>c36d2975d7fd06304cf0efa18c02df9c<>res://.godot/imported/road_dirt90.png-e3d93b1a1af012ed2f140b5c39b08de1.ctex::
-::res://kenney_racing-pack/PNG/Tiles/Grass/::1780711059
+::res://kenney_racing-pack/PNG/Tiles/Grass/::1780711186
 land_grass01.png::CompressedTexture2D::6796483079348142134::1779595631::1780711088::1::::<><><>0<>0<>a3c825f35bfb802f8a55db4a664e340c<>res://.godot/imported/land_grass01.png-b60f8f5f9a80b908ed5774b7fde9dd9a.ctex::
 land_grass02.png::CompressedTexture2D::5018507495031538704::1779595631::1780711088::1::::<><><>0<>0<>a3df0e6215ab85d491154aee8b040463<>res://.godot/imported/land_grass02.png-74bbe99eb5860579c7eb69bbfa9514ab.ctex::
 land_grass03.png::CompressedTexture2D::4695697571857948114::1779595631::1780711088::1::::<><><>0<>0<>366c37b2892ac817a583b773591727dc<>res://.godot/imported/land_grass03.png-8d7a9d36bc67481602409cf912254552.ctex::
@@ -348,7 +351,7 @@ land_grass11.png::CompressedTexture2D::8863004124812773678::1779595631::17807110
 land_grass12.png::CompressedTexture2D::5876259400997325115::1779595631::1780711088::1::::<><><>0<>0<>520d823c45922e3f9d10ed243c9fb2cb<>res://.godot/imported/land_grass12.png-cdd89ee1381314ab5311390934f293b3.ctex::
 land_grass13.png::CompressedTexture2D::4973793826933207497::1779595631::1780711088::1::::<><><>0<>0<>af25a9bafb18beaa26ecd1e65417b614<>res://.godot/imported/land_grass13.png-a45d214aee13b0353508f66b92e7f3db.ctex::
 land_grass14.png::CompressedTexture2D::3295398429021866215::1779595631::1780711088::1::::<><><>0<>0<>5909385105bc54cabd78bdc310c3349c<>res://.godot/imported/land_grass14.png-ccdd7870d8679e15307ebdee537dd1a8.ctex::
-::res://kenney_racing-pack/PNG/Tiles/Sand/::1780711059
+::res://kenney_racing-pack/PNG/Tiles/Sand/::1780711088
 land_sand01.png::CompressedTexture2D::6764223931409274635::1779595631::1780711088::1::::<><><>0<>0<>3570b4e7d9e0152c9450615cf844c7b8<>res://.godot/imported/land_sand01.png-4282cc799e70a6e9156c4aa093b50e77.ctex::
 land_sand02.png::CompressedTexture2D::3950489228003397844::1779595631::1780711088::1::::<><><>0<>0<>e73e8c4cc835c76b2460603073110a7d<>res://.godot/imported/land_sand02.png-c23b46ad7e5824f9b5fe20cf21315587.ctex::
 land_sand03.png::CompressedTexture2D::9035618890840358136::1779595631::1780711088::1::::<><><>0<>0<>1f958a765c79068e9d826a16fab63b73<>res://.godot/imported/land_sand03.png-17888b99eaa12995c468bf856650049d.ctex::
@@ -363,7 +366,7 @@ land_sand11.png::CompressedTexture2D::3953752527485933226::1779595631::178071108
 land_sand12.png::CompressedTexture2D::5198955699873022577::1779595631::1780711088::1::::<><><>0<>0<>0354e77bd94645204f109d0c6c534d90<>res://.godot/imported/land_sand12.png-fe11104896eb764d80c6a8c2a7200e0c.ctex::
 land_sand13.png::CompressedTexture2D::6504365307826969748::1779595631::1780711088::1::::<><><>0<>0<>b433e9fc741af5b93b49b6e2853a3304<>res://.godot/imported/land_sand13.png-f7a3c9a96f599e489e32d2e9dda70aae.ctex::
 land_sand14.png::CompressedTexture2D::819259648670381207::1779595631::1780711088::1::::<><><>0<>0<>30f3cfb4d2da1b5610303a7eaf36662a<>res://.godot/imported/land_sand14.png-2a4c374ffa399054f1c3e7a402998373.ctex::
-::res://kenney_racing-pack/PNG/Tiles/Sand road/::1780711059
+::res://kenney_racing-pack/PNG/Tiles/Sand road/::1780711186
 road_sand01.png::CompressedTexture2D::6294006586504445126::1779595631::1780711088::1::::<><><>0<>0<>34cdb876de7b8cb175c78991e310b13d<>res://.godot/imported/road_sand01.png-2b566ab2031a03267dfb3b58e20d6461.ctex::
 road_sand02.png::CompressedTexture2D::6054592312473578070::1779595631::1780711088::1::::<><><>0<>0<>27f6fa67175f1834199430c89291fcf6<>res://.godot/imported/road_sand02.png-d396c575e658020a3df033b0f6ce70a0.ctex::
 road_sand03.png::CompressedTexture2D::763595189822427973::1779595631::1780711088::1::::<><><>0<>0<>c4536ebd868217d68cb7065743f3193e<>res://.godot/imported/road_sand03.png-8aa420d803b77ecdf4ec422fd71977b7.ctex::
@@ -454,7 +457,7 @@ road_sand87.png::CompressedTexture2D::3566471588153915394::1779595631::178071108
 road_sand88.png::CompressedTexture2D::7202506049538118639::1779595631::1780711088::1::::<><><>0<>0<>07535f4bebfcc8f9d1962e2c6310b7e8<>res://.godot/imported/road_sand88.png-4f95bba9265fadef98a651dfc5c1a38c.ctex::
 road_sand89.png::CompressedTexture2D::49941256730315130::1779595631::1780711088::1::::<><><>0<>0<>66efad2e7aa3e391b9b2d529b241ef74<>res://.godot/imported/road_sand89.png-4605dedc8c1fe0d12192a5d58e4d7b59.ctex::
 road_sand90.png::CompressedTexture2D::2609032902472522720::1779595631::1780711088::1::::<><><>0<>0<>c2846a9fbcdb51cf96dfdba094418b7c<>res://.godot/imported/road_sand90.png-35c99fe152ccfddf723211d0c68ac81b.ctex::
-::res://kenney_racing-pack/Spritesheets/::1780711059
+::res://kenney_racing-pack/Spritesheets/::1780711089
 spritesheet_characters.png::CompressedTexture2D::2010392657814542428::1779595631::1780711088::1::::<><><>0<>0<>a975fcfef8f8a7ed16ef21851d74b2fd<>res://.godot/imported/spritesheet_characters.png-4a889139c20f4222d61937488a2d98b7.ctex::
 spritesheet_characters.xml::TextFile::-1::1779595631::0::1::::<><><>0<>0<><>::
 spritesheet_objects.png::CompressedTexture2D::8108400916985525977::1779595631::1780711088::1::::<><><>0<>0<>59cf99d968f3cd96c692c2107e713430<>res://.godot/imported/spritesheet_objects.png-b03b2936aa39ad484c6fd10add9e4e86.ctex::
@@ -463,7 +466,7 @@ spritesheet_tiles.png::CompressedTexture2D::6125903665911072029::1779595631::178
 spritesheet_tiles.xml::TextFile::-1::1779595631::0::1::::<><><>0<>0<><>::
 spritesheet_vehicles.png::CompressedTexture2D::254012169188768804::1779595631::1780711088::1::::<><><>0<>0<>774cc8e116087c33125d61396dc78de1<>res://.godot/imported/spritesheet_vehicles.png-03280a626b400b3014293d4884bc1d08.ctex::
 spritesheet_vehicles.xml::TextFile::-1::1779595631::0::1::::<><><>0<>0<><>::
-::res://kenney_racing-pack/Vector/::1780711059
+::res://kenney_racing-pack/Vector/::1780711088
 vector_land.svg::CompressedTexture2D::1000006934986668352::1779595631::1780711088::1::::<><><>0<>0<>2c004fd1bfe8a447ac7f00712d466df6<>res://.godot/imported/vector_land.svg-86bc336caf7394d31b1abbb3177ed0f5.ctex::
 vector_objects.svg::CompressedTexture2D::2045357968086854245::1779595631::1780711088::1::::<><><>0<>0<>d42d38dbffb1fb6f8c5b51d8baf2b19b<>res://.godot/imported/vector_objects.svg-b2741f97a2a9562f61dc89d6ce806546.ctex::
 vector_roads.svg::CompressedTexture2D::6638958322885531645::1779595631::1780711088::1::::<><><>0<>0<>1971543f5e555d7e8f8d6a8e0ddfef74<>res://.godot/imported/vector_roads.svg-d560bba6ebce8ec737c0f72f36823b23.ctex::
