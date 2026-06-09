@@ -23,8 +23,6 @@ func _process(delta: float) -> void:
 		return
 
 	time_left -= delta
-	# This will print the time directly to your output window every second
-	print("Time Left: ", time_left) 
 
 	if score_label != null:
 		score_label.text = "Time: " + str(ceil(time_left)) + " | Cash: $" + str(cash_earned)
@@ -34,7 +32,7 @@ func _process(delta: float) -> void:
 		delivery_failed("TIME'S UP!")
 
 
-# Called by the DropOffGate script when the player successfully drives through it
+# Called by the Gate script when the player successfully drives through it
 func complete_delivery() -> void:
 	if is_game_over:
 		return
@@ -71,7 +69,7 @@ func _on_restart_button_pressed() -> void:
 	get_tree().reload_current_scene()
 
 func _on_timer_timeout() -> void:
-	pass # Replace with function body
+	pass 
 	
 
 func trigger_crash() -> void:
