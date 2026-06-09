@@ -1,37 +1,53 @@
 extends Node2D
 
-# Load the traffic car template
-var traffic_scene = preload("res://traffic_car.tscn")
+# --- Bulletproof File Connections ---
+var car_scene: PackedScene = preload("res://traffic_car.tscn")
+@export var gate_scene: PackedScene = preload("res://drop_off_gate.tscn")
+
+# --- Spawn Settings ---
+@export var gate_spawn_chance: float = 0.3
+@export var highway_width: float = 400.0
+
 
 func _ready() -> void:
-	# Clean connection to the timer
-	$Timer.timeout.connect(_on_timer_timeout)
+	# This forces Godot to completely scramble its random number generator 
+	# so it doesn't repeat the same numbers or lines!
+	randomize()
 	
-	# Safety check to make sure the SpawnZone node exists
-	if not has_node("SpawnZone"):
-		push_error("TrafficSpawner Error: Missing 'SpawnZone' child node!")
+	if has_node("Timer"):
+		var timer_node = get_node("Timer")
+		timer_node.timeout.connect(_on_timer_timeout)
+		print("Spawner: Connected to Timer successfully!")
+
 
 func _on_timer_timeout() -> void:
-	if not has_node("SpawnZone"): return
+	spawn_car()
+
+	if randf() < gate_spawn_chance:
+		spawn_gate()
+
+
+func spawn_car() -> void:
+	if car_scene == null:
+		return
+		
+	var car = car_scene.instantiate()
+	add_child(car)
 	
-	var spawn_zone = $SpawnZone as ReferenceRect
+	# CHANGED: Increased from 250 to 400 to stretch them to the edges of the road
+	var random_x = randf_range(-700.0, 700.0)
 	
-	# 1. Calculate the exact edges of the box you drew in the editor
-	var zone_left = spawn_zone.global_position.x
-	var zone_right = zone_left + spawn_zone.size.x
+	car.position = Vector2(random_x, 0)
+	print("Car spawned at random X: ", random_x)
+
+
+func spawn_gate() -> void:
+	if gate_scene == null:
+		return
+		
+	var gate = gate_scene.instantiate()
+	add_child(gate)
 	
-	# 2. Pick a completely random X coordinate inside that box
-	# We subtract 30 pixels from the edges so cars don't spawn half-off the box
-	var random_x = randf_range(zone_left + 30, zone_right - 30)
-	
-	# 3. Create and position the car
-	var new_car = traffic_scene.instantiate()
-	new_car.position = Vector2(random_x, spawn_zone.global_position.y)
-	
-	# 4. FIX THE BUNCHING: Give cars vastly different speeds so they spread out
-	new_car.driving_speed = randf_range(20.0, 220.0)
-	
-	# 5. Add to the scene
-	get_parent().add_child(new_car)
-	
-	# Add this line at the very top of your spawner script with the other preloads:
+	# SPREAD FOR GATES
+	var random_x = randf_range(-250.0, 250.0)
+	gate.position = Vector2(random_x, 0)

@@ -22,4 +22,5 @@ scale = Vector2(1.43466, 1.2575)
 texture = ExtResource("2_i3pqv")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(956, 544)
+position = Vector2(672, 504)
+offset = Vector2(0, -300)

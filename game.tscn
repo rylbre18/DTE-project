@@ -1,43 +1,147 @@
-[gd_scene load_steps=6 format=3 uid="uid://bij3sjw2ry2vj"]
+[gd_scene load_steps=12 format=3 uid="uid://bij3sjw2ry2vj"]
 
 [ext_resource type="PackedScene" uid="uid://d2k4svote5pja" path="res://player.tscn" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://gxsm57tojast" path="res://maingame.gd" id="1_j5wjh"]
 [ext_resource type="PackedScene" uid="uid://botgmyfwq8hqf" path="res://tile_map.tscn" id="2_e2o6t"]
 [ext_resource type="Texture2D" uid="uid://cjfaumh7ta7vo" path="res://kenney_racing-pack/PNG/Tiles/Asphalt road/road_asphalt01.png" id="2_feb5d"]
 [ext_resource type="PackedScene" uid="uid://brf5xyqt2kqmo" path="res://traffic_car.tscn" id="4_7jktm"]
 [ext_resource type="Script" uid="uid://321cxydu302r" path="res://traffic_spawner.gd" id="5_ryrav"]
+[ext_resource type="PackedScene" path="res://drop_off_gate.tscn" id="7_eow3j"]
+[ext_resource type="Texture2D" uid="uid://dyjkna114s06m" path="res://kenney_racing-pack/PNG/Tiles/Grass/land_grass11.png" id="8_j5wjh"]
+[ext_resource type="Texture2D" uid="uid://c4snqwswlf8i8" path="res://Explosion/Gemini_Generated_Image_z5qh87z5qh87z5qh.png" id="8_vef74"]
+[ext_resource type="Script" path="res://game_over_ui.gd" id="9_hve3p"]
 
-[node name="game" type="Node2D"]
-position = Vector2(-7, -13)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hve3p"]
+
+[node name="game" type="Node2D" node_paths=PackedStringArray("score_label", "game_over_screen", "final_score_label")]
+position = Vector2(-8, 0)
+script = ExtResource("1_j5wjh")
+score_label = NodePath("GameOverUI/ScoreLabel")
+game_over_screen = NodePath("GameOverUI/GameOverScreen")
+final_score_label = NodePath("GameOverUI/GameOverText")
 
 [node name="moving_road" parent="." instance=ExtResource("2_e2o6t")]
 clip_contents = true
-offset_left = 215.0
-offset_top = -131.0
-offset_right = 343.0
-offset_bottom = 88.0
+offset_left = 191.0
+offset_top = -139.0
+offset_right = 319.0
+offset_bottom = 237.0
 scale = Vector2(12, 12)
 texture = ExtResource("2_feb5d")
 expand_mode = 1
 
 [node name="player" parent="." groups=["player"] instance=ExtResource("1_80nbo")]
-position = Vector2(10, 14)
+position = Vector2(296, 800)
 collision_layer = 1
 
-[node name="TrafficCar" parent="." instance=ExtResource("4_7jktm")]
-position = Vector2(-513, 21)
+[node name="Hitbox" type="Area2D" parent="player"]
+unique_name_in_owner = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player/Hitbox"]
+unique_name_in_owner = true
+shape = SubResource("RectangleShape2D_hve3p")
+
+[node name="TrafficCar" parent="." groups=["player"] instance=ExtResource("4_7jktm")]
+position = Vector2(1248, -16)
 
 [node name="TrafficSpawner" type="Node2D" parent="."]
+position = Vector2(935, -123)
 script = ExtResource("5_ryrav")
 
 [node name="Timer" type="Timer" parent="TrafficSpawner"]
-wait_time = 0.001
 autostart = true
 
 [node name="SpawnZone" type="ReferenceRect" parent="TrafficSpawner"]
-offset_left = -601.0
-offset_top = -131.0
-offset_right = 815.0
-offset_bottom = 1405.0
+offset_left = -2671.0
+offset_top = 75.0
+offset_right = -1151.0
+offset_bottom = 4995.0
 
 [node name="TrafficCar2" parent="." instance=ExtResource("4_7jktm")]
-position = Vector2(351, 29)
+position = Vector2(407, 13)
+
+[node name="DropOffGate" parent="." groups=["player"] instance=ExtResource("7_eow3j")]
+z_index = 3
+position = Vector2(184, 256)
+
+[node name="LandGrass12" type="Sprite2D" parent="."]
+position = Vector2(2435, 1569)
+scale = Vector2(11.0625, 26.6875)
+texture = ExtResource("8_j5wjh")
+
+[node name="LandGrass11" type="Sprite2D" parent="."]
+position = Vector2(-440, 1560)
+scale = Vector2(9.8125, 26.6875)
+texture = ExtResource("8_j5wjh")
+
+[node name="GameOverUI" type="CanvasLayer" parent="."]
+process_mode = 3
+script = ExtResource("9_hve3p")
+
+[node name="CrashExplosion" type="TextureRect" parent="GameOverUI"]
+unique_name_in_owner = true
+visible = false
+offset_left = -448.0
+offset_top = -16.0
+offset_right = 2552.0
+offset_bottom = 1284.0
+texture = ExtResource("8_vef74")
+
+[node name="BackgroundDim" type="ColorRect" parent="GameOverUI"]
+unique_name_in_owner = true
+visible = false
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 0.470588)
+
+[node name="ScoreLabel" type="Label" parent="GameOverUI"]
+unique_name_in_owner = true
+offset_right = 107.0
+offset_bottom = 49.0
+text = "Time Left: 30s
+Cash: $0"
+
+[node name="GameOverScreen" type="Panel" parent="GameOverUI"]
+unique_name_in_owner = true
+visible = false
+modulate = Color(0.230315, 0.230315, 0.230315, 1)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RestartButton" type="Button" parent="GameOverUI"]
+unique_name_in_owner = true
+process_mode = 3
+visible = false
+top_level = true
+z_as_relative = false
+offset_left = 760.0
+offset_top = 776.0
+offset_right = 1073.0
+offset_bottom = 888.0
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 30
+text = "Drive Again"
+
+[node name="GameOverText" type="Label" parent="GameOverUI"]
+unique_name_in_owner = true
+visible = false
+z_index = 10
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -350.0
+offset_right = 350.0
+offset_bottom = 250.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.759421, 0.126458, 9.62615e-08, 1)
+theme_override_font_sizes/font_size = 118
+text = "Game Over!"
+autowrap_mode = 2
+
+[connection signal="timeout" from="TrafficSpawner/Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="GameOverUI/RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="pressed" from="GameOverUI/RestartButton" to="GameOverUI" method="_on_restart_button_pressed"]
