@@ -1,4 +1,12 @@
-res://game.tscn
-res://player.tscn
-res://tile_map.tscn
+res://traffic_car.gd
 res://traffic_car.tscn
+res://traffic_spawner.gd
+res://game.tscn
+res://drop_off_gate.gd
+res://maingame.gd
+res://movingroad.gd
+res://player.tscn
+res://drop_off_gate.tscn
+res://sprite_2d.gd
+res://game_over_ui.gd
+res://script/player.gd
