@@ -47,7 +47,7 @@ position = Vector2(1248, -16)
 [node name="TrafficSpawner" type="Node2D" parent="." unique_id=1721288584]
 position = Vector2(935, -123)
 script = ExtResource("5_ryrav")
-gate_spawn_chance = 78.9
+gate_spawn_chance = 2.6
 highway_width = 1000.0
 
 [node name="Timer" type="Timer" parent="TrafficSpawner" unique_id=1886759273]
