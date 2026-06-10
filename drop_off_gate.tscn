@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://crd0k016qljjb"]
+[gd_scene load_steps=0 format=3 uid="uid://crd0k016qljjb"]
 
 [ext_resource type="Script" uid="uid://c75hni1ku37bg" path="res://drop_off_gate.gd" id="1_xjqfg"]
 [ext_resource type="Texture2D" uid="uid://biv7tap1vmj6m" path="res://kenney_racing-pack/PNG/Objects/barrier_white.png" id="2_eh3sr"]
