@@ -65,14 +65,5 @@ func trigger_game_over() -> void:
 
 
 func _on_restart_button_pressed() -> void:
-	# 1. Unpause the engine directly
-	Engine.time_scale = 1.0
-	
-	# 2. Grab the global SceneTree directly through the Engine singleton
-	var global_tree = Engine.get_main_loop() as SceneTree
-	
-	if global_tree:
-		global_tree.paused = false
-		global_tree.reload_current_scene()
-	else:
-		print("CRITICAL: Even the global engine loop couldn't find the scene tree!")
+	get_tree().paused = false
+	get_tree().reload_current_scene()

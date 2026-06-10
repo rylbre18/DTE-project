@@ -47,6 +47,7 @@ position = Vector2(1248, -16)
 [node name="TrafficSpawner" type="Node2D" parent="." unique_id=1721288584]
 position = Vector2(935, -123)
 script = ExtResource("5_ryrav")
+gate_spawn_chance = 78.9
 highway_width = 1000.0
 
 [node name="Timer" type="Timer" parent="TrafficSpawner" unique_id=1886759273]
@@ -59,11 +60,12 @@ offset_right = -1151.0
 offset_bottom = 4995.0
 
 [node name="TrafficCar2" parent="." unique_id=1012642680 instance=ExtResource("4_7jktm")]
-position = Vector2(407, 13)
+position = Vector2(408, 16)
 
-[node name="DropOffGate" parent="." unique_id=1873510672 groups=["player"] instance=ExtResource("7_eow3j")]
+[node name="DropOffGate" parent="." unique_id=1873510672 groups=["player", "traffic"] instance=ExtResource("7_eow3j")]
 z_index = 3
-position = Vector2(184, 256)
+position = Vector2(184, -200)
+script = null
 
 [node name="LandGrass12" type="Sprite2D" parent="." unique_id=1041766922]
 position = Vector2(2435, 1569)
@@ -99,6 +101,7 @@ color = Color(0, 0, 0, 0.47058824)
 unique_name_in_owner = true
 offset_right = 107.0
 offset_bottom = 49.0
+theme_override_font_sizes/font_size = 37
 text = "Time Left: 30s
 Cash: $0"
 
@@ -145,4 +148,3 @@ autowrap_mode = 2
 
 [connection signal="timeout" from="TrafficSpawner/Timer" to="." method="_on_timer_timeout"]
 [connection signal="pressed" from="GameOverUI/RestartButton" to="." method="_on_restart_button_pressed"]
-[connection signal="pressed" from="GameOverUI/RestartButton" to="GameOverUI" method="_on_restart_button_pressed"]
